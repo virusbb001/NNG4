@@ -1,5 +1,5 @@
 # no-translate: 翻訳不要(タクティク名のみなど)
-# 
+# lean4game-statement: lean4gameに表示される
 msgid ""
 msgstr ""
 "Project-Id-Version: Game v4.23.0\n"
