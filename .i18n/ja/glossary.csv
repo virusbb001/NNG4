@@ -13,15 +13,21 @@ progress,セーブデータ,意訳 進捗でも良いかと思ったが、こち
 associativity,結合性
 totality,全順序性
 implication,含意
-transitivity,推移性
-reflexivity,反射性
+transitivity,推移律
+reflexivity,反射律
 the freshman's dream,一年生の夢,Wikipediaに記述あり
 natural numbers,自然数
 mathematical proof,数学の証明,数学的は一般的ではなさそうと判断
+theorem,定理
+Statement,命題,文脈で主張やステートメントにする
+Proposition,命題
 
 # Lean
 /tactics?/,タクティク
 goal,ゴール,一般語句との混在に注意
+object,対象,ローカルコンテキスト の項目が表示されるが、仮定と分けて表示されたりすることもあるため対象 と訳すのが無難と判断
+definitional equality,定義上の等しさ,https://github.com/lean-ja/fp-lean-ja/issues/91
+propositional equality,命題上の等しさ,https://github.com/lean-ja/fp-lean-ja/issues/91
 
 # Worlds
 successor,後者,Wikipediaから
