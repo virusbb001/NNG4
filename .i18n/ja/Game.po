@@ -399,7 +399,6 @@ msgstr "rw タクティク"
 
 #: Game.Levels.Tutorial.L02rw
 #. §0: `rfl`
-#, fuzzy
 msgid "Now §0 will work."
 msgstr "これで §0 が使えるようになります。"
 
@@ -813,7 +812,6 @@ msgstr "§0を証明するのに十分なタクティクを習得しました。
 #. §3: `MyNat`
 #. §4: `ℕ`
 #. §5: `Nat`
-#, fuzzy
 msgid ""
 "§0 is the natural numbers, just called \\\\\"numbers\\\\\" in this game. "
 "It's\n"
@@ -829,24 +827,22 @@ msgid ""
 "It is distinct from the Lean natural numbers §5, which should hopefully\n"
 "never leak into the natural number game.*"
 msgstr ""
-"§0 は自然数を指し、「数」と呼ばれています。このゲームでは、以下の2つのルールを用いて定義されます。\n"
+"§0 は自然数であり、このゲームでは単に「数」と呼ばれます。自然数は以下の2つの規則によって定義されます。\n"
 "\n"
-"* §1（0は数）\n"
-"* §2（数の後続も数）\n"
+"* §1 （0は数）\n"
+"* §2 （ある数の後者は数）\n"
 "\n"
 "## ゲームの実装\n"
 "\n"
-"* "
-"このゲームは、独自の自然数のコピーを使用します。「§3」という名前で参照され、記号は「§4」で表されます。これは、Leanの自然数「§5"
-"」とは異なり、自然数ゲームに影響を与えることはありません。"
+"*このゲームでは、§3 という名前で、§4 という表記を持つ独自の自然数を使用します。これは Lean の自然数である §5 とは区別されており、§5 "
+"がこの自然数ゲームに紛れ込むことがないようになっています。*"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `1`
 #. §1: `succ 0`
 #. §2: `rw [one_eq_succ_zero]`
-#, fuzzy
 msgid "Next turn §0 into §1 with §2."
-msgstr "次のステップとして、§2 を実行して §0 を §1 に変換します。"
+msgstr "次は §2 を実行して、§0 を §1 に書き換えましょう。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `0`
@@ -864,7 +860,6 @@ msgstr "次のステップとして、§2 を実行して §0 を §1 に変換�
 #. §12: `2 = succ 1`
 #. §13: `two_eq_succ_one`
 #. §14: $2$
-#, fuzzy
 msgid ""
 "## The birth of number.\n"
 "\n"
@@ -888,78 +883,72 @@ msgid ""
 "\n"
 "Let's prove that §14 is the number after the number after zero."
 msgstr ""
-"## 数字の誕生。\n"
+"## 数の誕生。\n"
 "\n"
-"Leanにおける数字は、以下の2つのルールで定義されます。\n"
+"Leanにおける数は、以下の2つの規則で定義されます。\n"
 "\n"
-"* §0 は数字です。\n"
-"* もし §1 が数字ならば、§3 の *後続* §2 も数字です。\n"
+"* §0 は数です。\n"
+"* もし §1 が数ならば、§3 の *後者* (successor) §2 も数です。\n"
 "\n"
-"§4 の「後続」とは、§5 の次の数字を意味します。数を数えることと、いくつかの小さな数字の名前を学びましょう。\n"
+"§4 の「後者」とは、§5 の次の数を意味します。数を数えることと、いくつかの小さな数の名前を学びましょう。\n"
 "\n"
 "## 4まで数える。\n"
 "\n"
-"§6 は数字なので、§7 も数字です。この新しい数字を §8 と呼びましょう。同様に §9, §10, §11 "
-"を定義します。これで十分な数を手に入れることができます。\n"
+"§6 は数なので、§7 も数です。この新しい数を §8 と呼びましょう。同様に §9, §10, §11 "
+"を定義します。これで十分な数を手に入れることができました。\n"
 "\n"
-"§12 が数字であることを示す *証明* §13 があります。証明リストの右側の「012」タブを確認してください。\n"
+"§12 の *証明* は §13 と呼ばれます。\n"
+"この証明やその他の証明については、右側の補題 (Theorems) リストにある「012」タブを確認してください。\n"
 "\n"
-"次に、0の後ろの後ろの数字である §14 を証明しましょう。"
+"それでは、 §14 が0の次の次の数であることを証明しましょう。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `rfl`
-#, fuzzy
 msgid "Now finish the job with §0."
-msgstr "§0を使って作業を完了してください。"
+msgstr "あとは §0 を使ってゴールを解決しましょう。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `one_eq_succ_zero`
 #. §1: `1 = succ 0`
-#, fuzzy
 msgid "§0 is a proof of §1.\""
-msgstr "§0 は §1 の証明である。"
+msgstr "§0 は §1 の証明です。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0 Game.Levels.Addition.L03add_comm
 #: Game.Levels.Implication.L09zero_ne_succ Game.Levels.Algorithm.L05pred
 #: Game.Levels.Algorithm.L06is_zero Game.Levels.LessOrEqual.L05le_zero
 #. §0: `two_eq_succ_one`
 #. §1: `2 = succ 1`
-#, fuzzy
 msgid "§0 is a proof of §1."
 msgstr "§0 は §1 の証明です。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
-#, fuzzy
 msgid "Can you take it from here?"
-msgstr "ここから続けられますか？"
+msgstr "ここからは自力で進められますか？"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `rw [two_eq_succ_one]`
 #. §1: `2`
-#, fuzzy
 msgid "Start with §0 to begin to break §1 down into its definition."
-msgstr "まず§0から開始し、そこから§1を定義へと分解していくことから始めましょう。"
+msgstr "まずは§0を実行して、§1を定義へと分解していくことから始めましょう。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
-#, fuzzy
 msgid "Numbers"
-msgstr "数値"
+msgstr "数"
 
+# lean4game-statement
 #: Game.Levels.Tutorial.L03two_eq_ss0 Game.Levels.Tutorial.L04rw_backwards
 #. §0: $2$
 #. §1: $0$
-#, fuzzy
 msgid "§0 is the number after the number after §1."
-msgstr "§0 は、§1 の後に続く数値の後に現れる数値です。"
+msgstr "§0 は、§1 の後に続く数の後に続く数である。"
 
 #: Game.Levels.Tutorial.L03two_eq_ss0
 #. §0: `rw [two_eq_succ_one, one_eq_succ_zero]`
 #. §1: `rfl`
-#, fuzzy
 msgid ""
 "Note that you can do §0\n"
 "and then §1 to solve this level in two lines."
-msgstr "§0を実行し、その後§1を実行することで、このレベルを2行で解くことができます。"
+msgstr "ちなみに、§0を実行し、その後§1を実行すれば、このレベルを2行で解くもことできます。"
 
 #: Game.Levels.Tutorial.L04rw_backwards
 #. §0: `h`
