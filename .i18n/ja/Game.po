@@ -965,7 +965,6 @@ msgstr "ちなみに、§0を実行し、その後§1を実行すれば、この
 #. §11: $0$
 #. §12: `succ (succ 0)`
 #. §13: `2`
-#, fuzzy
 msgid ""
 "If §0 is a proof of §1 then §2 will\n"
 "turn §3s into §4s. But what if we want to\n"
@@ -977,44 +976,39 @@ msgid ""
 "after §11 again, this time by changing §12\n"
 "into §13."
 msgstr ""
-"もし §0 が §1 の証明である場合、§2 は §3 を §4 に変換します。しかし、§5 を §6 に変換したい場合はどうでしょうか？ §7 "
-"タクティクに、この変換を指示するために、左矢印 §8 を使用します。 §9 と入力し、スペースキーを押すと、この矢印が得られます。\n"
+"§0 が §1 の証明である場合、§2 は §3 を §4 に書き換えます。しかし、§5 を §6 に書き換えたい場合はどうでしょうか？ §7 "
+"タクティクにそのことを伝えるには、左向き矢印 §8 を使用します。§9 と入力してからスペースキーを押すと、この矢印を入力できます。\n"
 "\n"
-"次の証明で、§10 が §11 の後ろの数値の後ろの数値であることを証明しましょう。今回は §12 を §13 に変換して証明します。"
+"§10 が §11 の後の後の数であることを、今度は §12 を §13 に書き換えることで、もう一度証明してみましょう。"
 
 #: Game.Levels.Tutorial.L04rw_backwards
 #. §0: `rw [← one_eq_succ_zero]`
 #. §1: `succ 0`
 #. §2: `1`
-#, fuzzy
 msgid "Try §0 to change §1 into §2."
-msgstr "§0を使用して、§1を§2に変換することを試みてください。"
+msgstr "§0 を実行して、§1 を §2 に書き換えてみてください。"
 
 #: Game.Levels.Tutorial.L04rw_backwards Game.Levels.Tutorial.L05add_zero
 #. §0: `rw [← two_eq_succ_one]`
 #. §1: `succ 1`
 #. §2: `2`
-#, fuzzy
 msgid "Now §0 will change §1 into §2."
-msgstr "§0 は §1 を §2 に変更します。"
+msgstr "§0 を使えば、 §1 を §2 に書き換えることができます。"
 
 #: Game.Levels.Tutorial.L04rw_backwards
 #. §0: `succ n`
 #. §1: `n + 1`
-#, fuzzy
 msgid ""
 "Why did we not just define §0 to be §1? Because we have not\n"
 "even *defined* addition yet! We'll do that in the next level."
-msgstr "なぜ、§0を§1に定義しなかったのでしょうか？ それは、まだ足し算の演算自体を定義していないからです。この定義は、次の段階で行います。"
+msgstr "なぜ§0を§1と定義しなかったのでしょうか？それは、まだ加算を*定義*すらしていないからです！次のレベルで加算を定義しましょう。"
 
 #: Game.Levels.Tutorial.L04rw_backwards
 #. §0: `2 = 2`
-#, fuzzy
 msgid "Can you now change the goal into §0?"
-msgstr "目標を§0に変更することは可能ですか？"
+msgstr "ゴールを§0にすることはできますか？"
 
 #: Game.Levels.Tutorial.L04rw_backwards
-#, fuzzy
 msgid "rewriting backwards"
 msgstr "逆方向に書き換える"
 
