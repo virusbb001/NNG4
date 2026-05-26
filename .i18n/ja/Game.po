@@ -1215,25 +1215,22 @@ msgstr "0を加える"
 #. §4: `rw [add_zero]`
 #. §5: `rw [add_zero b]`
 #. §6: `rw [add_zero]`
-#, fuzzy
 msgid ""
 "§0 is a proof of §1 so that was what got rewritten.\n"
 "You can now change §2 to §3 with §4 or §5. You\n"
 "can usually stick to §6 unless you need real precision."
 msgstr ""
-"§0 は §1 の証明であるため、それが書き換えられた理由です。\n"
-"§4 または §5 を使用して §2 を §3 に変更できます。 通常は §6 を使用すれば十分ですが、より厳密な操作が必要な場合は §4 または "
-"§5 を使用してください。"
+"§0 は §1 の証明ですので、それを使って書き換えが行われました。\n"
+"これによって、§4 または §5 を使って §2 を §3 に変えることができるようになります。\n"
+"正確に指定する必要がある場合を除いて、通常は §6 を使うだけで十分です。"
 
 #: Game.Levels.Tutorial.L06add_zero2 Game.Levels.LessOrEqual.L08le_total
 #. §0: `rw [add_zero c]`
-#, fuzzy
 msgid "Try §0."
-msgstr "§0 を実行してみましょう。"
+msgstr "§0 を試してみてください。"
 
 #: Game.Levels.Tutorial.L06add_zero2
 #. §0: `add_succ`
-#, fuzzy
 msgid "Let's now learn about Peano's second axiom for addition, §0."
 msgstr "それでは、ペアノの加法の第2の公理、§0 について学びましょう。"
 
@@ -1244,7 +1241,6 @@ msgstr "それでは、ペアノの加法の第2の公理、§0 について学�
 #. §3: `b + 0`
 #. §4: `c + 0`
 #. §5: `add_zero`
-#, fuzzy
 msgid ""
 "## Precision rewriting\n"
 "\n"
@@ -1256,13 +1252,12 @@ msgid ""
 msgstr ""
 "## 精密な書き換え\n"
 "\n"
-"直前のレベルでは、§0 と §1 が存在し、\n"
+"前のレベルでは、§0 と §1 が存在し、\n"
 "§2 は最初に見つかった §3 を変更しました。\n"
-"Lean に §4 を最初に変更させる方法を学びましょう。\n"
+"Lean に §4 を先に変更させる方法を学びましょう。\n"
 "これを行うには、§5 に明示的な入力を与えます。"
 
 #: Game.Levels.Tutorial.L06add_zero2
-#, fuzzy
 msgid "Precision rewriting"
 msgstr "精密な書き換え"
 
