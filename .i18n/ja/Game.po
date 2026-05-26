@@ -1012,13 +1012,13 @@ msgstr "ゴールを§0にすることはできますか？"
 msgid "rewriting backwards"
 msgstr "逆方向に書き換える"
 
+# 他のrepeat タクティクの説明と併せる
 #: Game.Levels.Tutorial.L05add_zero
 #. §0: `repeat t`
 #. §1: `t`
 #. §2: `repeat rw [add_zero]`
 #. §3: `a + 0 + (0 + (0 + 0)) = b + 0 + 0`
 #. §4: `a = b`
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -1035,12 +1035,15 @@ msgid ""
 msgstr ""
 "## 概要\n"
 "\n"
-"§0 は、タクティク §1 "
-"を繰り返し適用することで、目標を解決します。このタクティクの使用は必須ではありませんが、場合によっては処理速度の向上に役立ちます。\n"
+"§0 は、§1 タクティクをゴールに対して繰り返し適用します。このタクティクを使う必要はありませんが、時として作業をスピードアップさせてくれます。\n"
 "\n"
 "## 例\n"
 "\n"
-"§2 を使用すると、目標 §3 が §4 になります。"
+"§2 はゴール\n"
+"§3\n"
+"をゴール\n"
+"§4\n"
+"に変更します。\n"
 
 #: Game.Levels.Tutorial.L05add_zero
 #. §0: `2 + 2 = 4`
@@ -1065,7 +1068,6 @@ msgstr ""
 #. §19: `? + 0 = ?`
 #. §20: `add_zero x : x + 0 = x`
 #. §21: `proof : statement`
-#, fuzzy
 msgid ""
 "We'd like to prove §0 but right now\n"
 "we can't even *state* it\n"
@@ -1090,33 +1092,27 @@ msgid ""
 "\n"
 "We write §20, so §21."
 msgstr ""
-"私たちは§0を証明したいですが、現在では\n"
-"その定理を*記述すること*すらできません。\n"
-"なぜなら、加法をまだ定義していないからです。\n"
+"私たちは§0を証明したいのですが、加法をまだ定義していないため、現時点ではその命題を*述べること*すらできません。\n"
 "\n"
 "## 加法の定義\n"
 "\n"
-"任意の数§2に§1を加える方法はどのようなものでしょうか？\n"
-"このゲームでは数を生成する方法は2つしかありません：§3\n"
-"と後続数。したがって、§4を定義するには\n"
-"§5と§6がどのようなものかを知る必要があります。\n"
-"まずは§7を加えることにしましょう。\n"
+"任意の数§2に対して§1を加えるにはどうすればよいでしょうか？実のところ、このゲームで数を作る方法は2つしかありません。§3と後者です。したがって、§4"
+"を定義するには、§5と§6が何であるかを知る必要があります。\n"
+"まずは§7を加えることから始めましょう。\n"
 "\n"
 "### 0を加える\n"
 "\n"
-"加法が直感に合致するようにするためには、§8を\n"
-"§9とするべきです。より一般的には、任意の数§12に対して\n"
-"§10を§11とするべきです。Leanでのこの証明の名前は§13です。\n"
+"加法を私たちの直感に合わせるために、§8を§9であると*定義*するべきです。より一般的には、任意の数§12に対して§10を§11"
+"であると定義するべきです。Leanにおけるこの証明の名前は§13です。\n"
 "例えば、§14は§15の証明、§16は§17の証明、§18は§19の証明です。\n"
 "\n"
-"私たちは§20と書きます、つまり§21です。"
+"§20 という書き方は、§21 (証明の名前: 命題)という形式を表しています。"
 
 # no-translate
 #: Game.Levels.Tutorial.L05add_zero Game.Levels.Tutorial.L06add_zero2
 #: Game.Levels.Power.L01zero_pow_zero Game.Levels.Algorithm.L09decide2
 #: Game.Levels.AdvAddition.L03add_left_eq_self
 #. §0: $a+(b+0)+(c+0)=a+b+c.$
-#, fuzzy
 msgid "§0"
 msgstr "§0"
 
@@ -1124,17 +1120,17 @@ msgstr "§0"
 #. §0: `rw [add_zero]`
 #. §1: `b + 0`
 #. §2: `b`
-#, fuzzy
 msgid "§0 will change §1 into §2."
-msgstr "§0 は §1 を §2 に変換します。"
+msgstr "§0 は §1 を §2 に書き換えます。"
 
 #: Game.Levels.Tutorial.L05add_zero
 #. §0: `repeat rw [add_zero]`
-#, fuzzy
 msgid ""
 "Those of you interested in speedrunning the game may want to know\n"
 "that §0 will do both rewrites at once."
-msgstr "ゲームのRTAにご興味のある方は、`§0` は一度に両方のリライトを実行できます。"
+msgstr ""
+"このゲームのRTAに興味がある方は、\n"
+"§0 を使えば両方の書き換えを一度に行えることを知っておくと役立つかもしれません。"
 
 #: Game.Levels.Tutorial.L05add_zero
 #. §0: `add_zero a`
@@ -1147,7 +1143,6 @@ msgstr "ゲームのRTAにご興味のある方は、`§0` は一度に両方の
 #. §7: `add_zero`
 #. §8: $\\forall n ∈ ℕ, n + 0 = n$
 #. §9: `n + 0 = n`
-#, fuzzy
 msgid ""
 "§0 is a proof that §1.\n"
 "\n"
@@ -1173,14 +1168,14 @@ msgstr ""
 "\n"
 "## 概要\n"
 "\n"
-"§2は実際には関数で、数字を入力するとその数字に関する定理の証明を返します。例えば§3は§4の証明です。\n"
+"§2は実際には関数で、数を受け取ってその数に関する定理の証明を返します。例えば§3は§4の証明です。\n"
 "\n"
-"§5のタクティクは§6を受け取り、省略された数字を推測しようとします。\n"
+"§5 タクティクは§6を受け取り、あなたが入力しなかった数を推測しようとします。\n"
 "\n"
 "## 詳細\n"
 "\n"
-"数学者は時として§7を「一つのもの」と捉え、それは§8の証明であると言えます。これは、任意の数字nを入力すると§9"
-"の証明を返す関数であるという別の表現方法です。"
+"数学者は時として§7を「一つのもの」、すなわち§8の証明として捉えることがあります。これは、それが任意の数 n "
+"を受け取って§9の証明を返す関数である、ということを別の表現で言い換えたものです。"
 
 #: Game.Levels.Tutorial.L05add_zero
 #. §0: `Add a b`
@@ -1188,7 +1183,6 @@ msgstr ""
 #. §2: `add_zero a : a + 0 = a`
 #. §3: `add_succ a b : a + succ b = succ (a + b)`
 #. §4: `zero_add a : 0 + a = a`
-#, fuzzy
 msgid ""
 "§0, with notation §1, is\n"
 "the usual sum of natural numbers. Internally it is defined\n"
@@ -1201,18 +1195,17 @@ msgid ""
 "Other theorems about naturals, such as §4, are proved\n"
 "by induction using these two basic theorems."
 msgstr ""
-"§0、記号§1は、通常の自然数の和を表します。内部的には、以下の2つの仮定を用いて定義されています：\n"
+"§0（表記は §1）は、通常の自然数の和を表します。内部的には、以下の2つの仮定によって定義されています。\n"
 "\n"
 "* §2\n"
 "\n"
 "* §3\n"
 "\n"
-"また、§4のような他の自然数に関する定理は、これらの基本定理を用いて帰納法によって証明されます。"
+"§4のような自然数に関する他の定理は、これらの基本定理を用いた帰納法によって証明されます。\n"
 
 #: Game.Levels.Tutorial.L05add_zero
-#, fuzzy
 msgid "Adding zero"
-msgstr "ゼロを加える"
+msgstr "0を加える"
 
 #: Game.Levels.Tutorial.L06add_zero2
 #. §0: `add_zero c`
