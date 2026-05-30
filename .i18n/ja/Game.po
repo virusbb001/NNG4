@@ -1691,30 +1691,31 @@ msgstr ""
 "\n"
 "それでは、§5の証明である§4を目指して旅を続けましょう。"
 
+# 改行が無いものと揃える
+# lean4game-statement
 #: Game.Levels.Addition.L02succ_add
 #. §0: $a, b$
 #. §1: $ \\operatorname{succ}(a) + b = \\operatorname{succ}(a + b)$
-#, fuzzy
 msgid ""
 "For all natural numbers §0, we have\n"
 "§1."
 msgstr ""
-"すべての自然数 0 に対して、\n"
-"§1。"
+"任意の自然数 §0 に対して、\n"
+"§1 が成り立つ。"
 
 #: Game.Levels.Addition.L02succ_add
 #. §0: `succ a + «{d}»`
 #. §1: `(succ a) + «{d}»`
 #. §2: `succ`
-#, fuzzy
 msgid ""
 "Note that §0 means §1. Put your cursor\n"
 "on any §2 in the goal or assumptions to see what exactly it's eating."
-msgstr "注: §0 は §1 を意味します。目標または前提条件内の任意の §2 にカーソルを置くと、実際にどのようなものを参照しているかを確認できます。"
+msgstr ""
+"§0 は §1 を意味することに注意してください。\n"
+"ゴールや仮定にある §2 にカーソルを置くと、それが具体的に何を引数に取っているかを確認できます。"
 
 # no-translate
 #: Game.Levels.Addition.L02succ_add
-#, fuzzy
 msgid "succ_add"
 msgstr "succ_add"
 
@@ -1729,7 +1730,6 @@ msgstr "succ_add"
 #. §7: `b`
 #. §8: `b = 0`
 #. §9: `b`
-#, fuzzy
 msgid ""
 "Oh no! On the way to §0, a wild §1 appears. §2\n"
 "is the proof that §3 for §4 and §5 numbers.\n"
@@ -1737,17 +1737,17 @@ msgid ""
 "we have the problem that we are adding §7 to things, so we need\n"
 "to use induction to split into the cases where §8 and §9 is a successor."
 msgstr ""
-"大変！ §0 に向かう途中、野生の §1 が現れました。 §2 は、§3 が §4 と §5 の数値に対して成り立つことを証明しています。この結果が "
-"§6 を達成するのを妨げています。さらに、私たちは §7 を何かに加算しているため、§8 と §9 が後者である場合に帰納法を用いる必要があります。"
+"大変です！§0 に向かう途中で、野生の §1 が現れました！§2 は、自然数 §4 と §5 に対して §3 が成り立つことの証明です。この結果が "
+"§6 の行く手を阻んでいます。またしても §7 を加算しているという問題に直面しているため、帰納法を使って §8 の場合と §9 "
+"が後者の場合に分けて考える必要があります。"
 
 #: Game.Levels.Addition.L02succ_add
 #. §0: `a`
 #. §1: `b`
-#, fuzzy
 msgid ""
 "You might want to think about whether induction\n"
 "on §0 or §1 is the best idea."
-msgstr "推論を行う際に、§0 または §1 に対する再帰的なアプローチが最適かどうかを検討する必要があります。"
+msgstr "§0 と §1 のどちらについて帰納法を使うのが良いか、考えてみてください。"
 
 #: Game.Levels.Addition.L02succ_add Game.Levels.Multiplication.L08add_mul
 #: Game.Levels.Power.L04one_pow Game.Levels.Implication.L10one_ne_zero
@@ -1760,14 +1760,12 @@ msgstr "推論を行う際に、§0 または §1 に対する再帰的なアプ
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
 #. §0: `succ_add a b`
 #. §1: `succ a + b = succ (a + b)`
-#, fuzzy
 msgid "§0 is a proof that §1."
-msgstr "§0 は、§1 の証明を示します。"
+msgstr "§0 は、§1 の証明です。"
 
 #: Game.Levels.Addition.L02succ_add
-#, fuzzy
 msgid "Well done! You now have enough tools to tackle the main boss of this level."
-msgstr "よくできました！これで、このレベルのメインボスに対抗するための十分なツールが揃いました。"
+msgstr "お疲れ様でした！これで、このレベルのメインボスに挑むための準備が整いました。"
 
 #: Game.Levels.Addition.L03add_comm
 #. §0: `a`
@@ -5012,9 +5010,8 @@ msgid "A proof that §0."
 msgstr "§0 の証明。"
 
 #: Game.Levels.AdvAddition.L05add_right_eq_zero
-#, fuzzy
 msgid "Well done!"
-msgstr "よくできました！"
+msgstr "お疲れ様でした！"
 
 # no-translate
 #: Game.Levels.AdvAddition.L05add_right_eq_zero
