@@ -1770,31 +1770,28 @@ msgstr "お疲れ様でした！これで、このレベルのメインボスに
 #: Game.Levels.Addition.L03add_comm
 #. §0: `a`
 #. §1: `b`
-#, fuzzy
 msgid "Induction on §0 or §1 -- it's all the same in this one."
-msgstr "帰納法を適用して、§0または§1に対して -- どちらの場合でも結果は同じです。"
+msgstr "§0と§1のどちらに対して帰納法を使っても、このレベルでは同じように証明できます。"
 
+# lean4game-statement
 #: Game.Levels.Addition.L03add_comm
 #. §0: `a`
 #. §1: `b`
 #. §2: $a + b = b + a$
-#, fuzzy
 msgid ""
 "On the set of natural numbers, addition is commutative.\n"
 "In other words, if §0 and §1 are arbitrary natural numbers, then\n"
 "§2."
 msgstr ""
-"自然数全体の集合においては、加算は交換法則を満たす。\n"
-"すなわち、任意の自然数 §0 と §1 が与えられたとき、\n"
-"§2."
+"自然数全体の集合において、加法は交換法則を満たす。\n"
+"言い換えれば、任意の自然数 §0 と §1 に対して、\n"
+"§2 が成り立つ。"
 
 #: Game.Levels.Addition.L03add_comm
-#, fuzzy
 msgid "add_comm (level boss)"
-msgstr "add_comm (レベルボス)"
+msgstr "add_comm (ボスレベル)"
 
 #: Game.Levels.Addition.L03add_comm
-#, fuzzy
 msgid ""
 "[boss battle music]\n"
 "\n"
@@ -1803,8 +1800,8 @@ msgid ""
 msgstr ""
 "[ボスバトル音楽]\n"
 "\n"
-"あなたのインベントリを確認し、利用可能な証明を確認してください。\n"
-"これらで十分であるはずです。"
+"インベントリを見て、利用可能な証明を確認してください。\n"
+"これらで十分なはずです。"
 
 #: Game.Levels.Addition.L04add_assoc
 #. §0: `a + b + c`
