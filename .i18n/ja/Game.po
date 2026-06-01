@@ -1807,7 +1807,6 @@ msgstr ""
 #. §0: `a + b + c`
 #. §1: `(a + b) + c`
 #. §2: `+`
-#, fuzzy
 msgid ""
 "Remember that when Lean writes §0, it means §1.\n"
 "If you are not sure where the brackets are in an expression, just hover\n"
@@ -1815,14 +1814,13 @@ msgid ""
 "hover over both §2 symbols on the left hand side of the goal and\n"
 "you'll see where the invisible brackets are."
 msgstr ""
-"Leanにおいて「§0」と表示された場合、「§1"
-"」を意味することを覚えておいてください。もし式内の括弧の位置が不明な場合は、カーソルをその位置にホバーして表示されるハイライトを確認してください。例えば"
-"、目標の左側の両方の「§2」をホバーすると、見えない括弧の位置がわかります。"
+"Lean が §0 と書くとき、それは §1 を意味するということを覚えておいてください。\n"
+"式の中の括弧がどこにあるか分からないときは、その式の上にカーソルを置いて、どこがハイライトされるかを確認してみてください。例えば、ゴールの左辺にある "
+"2 つの §2 記号の上にカーソルを合わせると、隠れている括弧がどこにあるかが分かります。"
 
 #: Game.Levels.Addition.L04add_assoc
 #. §0: `add_assoc`
 #. §1: `add_comm`
-#, fuzzy
 msgid ""
 "A passing mathematician congratulates you on proving that naturals\n"
 "are an additive commutative monoid.\n"
@@ -1830,9 +1828,9 @@ msgid ""
 "Let's practice using §0 and §1 in one more level,\n"
 "before we leave addition world."
 msgstr ""
-"「自然数の加法的交換半群であることの証明」に際し、通りすがりの数学者がお祝いの言葉を述べます。\n"
+"通りすがりの数学者が、自然数が加法的可換モノイドであることを証明したあなたにお祝いの言葉を述べています。\n"
 "\n"
-"加算に関する概念を理解するため、§0 と §1 の使い方をもう一度練習しましょう。"
+"加算ワールドを去る前に、 §0 と §1 を使う練習をもう1つのレベルでやっておきましょう。"
 
 #: Game.Levels.Addition.L04add_assoc
 #. §0: $x+y+z$
@@ -1842,7 +1840,6 @@ msgstr ""
 #. §4: $(x+y)+z$
 #. §5: $(x+y)+z$
 #. §6: $x+(y+z)$
-#, fuzzy
 msgid ""
 "We've been adding up two numbers; in this level we will add up three.\n"
 "\n"
@@ -1853,25 +1850,23 @@ msgid ""
 "\n"
 "  That's true, but we didn't prove it yet. Let's prove it now by induction."
 msgstr ""
-"二つの数を足し合わせる練習をしてきました。このレベルでは、三つの数を足し合わせます。\n"
+"これまで二つの数を足し合わせる練習をしてきました。このレベルでは、三つの数を足し合わせます。\n"
 "\n"
-"  §0 は何を意味するのでしょうか？それは §1 または §2 のどちらかです。Lean では、§3 と §4 は同じ意味になります。\n"
+"  §0 は何を *意味する* のでしょうか？それは §1 または §2 のどちらかです。Lean では、§3 は §4 を意味します。\n"
 "\n"
-"  しかし、どの意味を持つべきかを気にする必要はありません。なぜなら、§5 と §6 は *等しい* からです！\n"
+"  しかし、どちらの意味であるかを気にする必要があるでしょうか。なぜなら、§5 と §6 は *等しい* からです！\n"
 "\n"
-"  その通りですが、まだ証明していません。帰納法(`inducution`)でを用いて証明しましょう。"
+"  その通りですが、まだ証明していません。今から帰納法（`induction`）を用いて証明しましょう。"
 
 #: Game.Levels.Addition.L04add_assoc
-#, fuzzy
 msgid "add_assoc (associativity of addition)"
-msgstr "add_assoc (加法に関する結合法則)"
+msgstr "add_assoc (加法の結合法則)"
 
 #: Game.Levels.Addition.L04add_assoc
 #. §0: `add_assoc a b c`
 #. §1: `(a + b) + c = a + (b + c)`
 #. §2: `(a + b) + c`
 #. §3: `a + b + c`
-#, fuzzy
 msgid ""
 "§0 is a proof\n"
 "that §1. Note that in Lean §2 prints\n"
@@ -1879,21 +1874,22 @@ msgid ""
 "associative."
 msgstr ""
 "§0 は §1 の証明です。\n"
-"Lean では、加算の演算が左結合的に定義されているため、§2 は §3  として表示されます。"
+"Lean では加法の記法が左結合として定義されているため、§2 は §3 として表示されることに注意してください。"
 
+# lean4game-statement
 #: Game.Levels.Addition.L04add_assoc
 #. §0: $a, b$
 #. §1: $c$
 #. §2: $ (a + b) + c = a + (b + c). $
-#, fuzzy
 msgid ""
 "On the set of natural numbers, addition is associative.\n"
 "In other words, if §0 and §1 are arbitrary natural numbers, we have\n"
 "§2"
 msgstr ""
-"自然数全体の集合においては、加算は結合法則に従います。\n"
-"言い換えれば、任意の自然数 §0 と §1 が与えられたとき、以下の関係が成り立ちます。\n"
-"§2"
+"自然数の集合において、加法は結合法則を満たす。\n"
+"言い換えれば、任意の自然数 §0 と §1 に対して、\n"
+"§2\n"
+"が成り立つ。"
 
 #: Game.Levels.Addition.L05add_right_comm
 #. §0: `add_right_comm a b c`
