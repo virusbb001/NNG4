@@ -2034,7 +2034,6 @@ msgstr ""
 
 # no-translate
 #: Game.Levels.Multiplication.L01mul_one
-#, fuzzy
 msgid "mul_one"
 msgstr "mul_one"
 
@@ -2044,7 +2043,6 @@ msgstr "mul_one"
 #. §2: `mul_zero a : a * 0 = 0`
 #. §3: `mul_succ a b : a * succ b = a * b + a`
 #. §4: `zero_mul`
-#, fuzzy
 msgid ""
 "§0, with notation §1, is the usual\n"
 "  product of natural numbers. Internally it is\n"
@@ -2057,13 +2055,13 @@ msgid ""
 "Other theorems about naturals, such as §4,\n"
 "are proved by induction from these two basic theorems."
 msgstr ""
-"§1 で表記される §0 は、自然数の積を表す一般的な概念です。内部的には、以下の2つの公理を用いて定義されます：\n"
+"§0（表記は §1）は、自然数の通常の積です。内部的には、以下の2つの公理によって定義されます。\n"
 "\n"
 "* §2\n"
 "\n"
 "* §3\n"
 "\n"
-"また、§4のような他の自然数に関する定理は、これらの基本定理から帰納法によって証明されます。"
+"§4 のような自然数に関する他の定理は、これら2つの基本的な定理から帰納法を用いて証明されます。"
 
 #: Game.Levels.Multiplication.L01mul_one
 #. §0: `mul_zero`
@@ -2078,20 +2076,20 @@ msgid ""
 "Let's start with a warm-up: no induction needed for this one,\n"
 "because we know §2 is a successor."
 msgstr ""
-"新しい「*」タブを確認してください。このタブには、§0 と §1 が表示されます。\n"
-"現在、これらは乗算に関する唯一の既知的事実です。\n"
-"それでは、さらに9つの定理を証明しましょう。\n"
+"補題の新しい「*」タブを確認してください。ここには §0 と §1 が含まれています。\n"
+"現時点では、これらが乗算について知っている事実のすべてです。\n"
+"あと9つ、証明してみましょう。\n"
 "\n"
-"まずは簡単な例から始めましょう。この場合は、帰納法は不要です。\n"
-"なぜなら、§2 は後者であるためです。"
+"まずは準備運動から始めます。この問題に帰納法は必要ありません。\n"
+"なぜなら、私たちは §2 が後者であることを知っているからです。"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L01mul_one Game.Levels.Multiplication.L05one_mul
 #: Game.Levels.Multiplication.L06two_mul
 #. §0: $m$
 #. §1: $ m \\times 1 = m$
-#, fuzzy
 msgid "For any natural number §0, we have §1."
-msgstr "任意の自然数 §0 に対しては、§1 が成り立ちます。"
+msgstr "任意の自然数 §0 に対して §1 が成り立つ。"
 
 #: Game.Levels.Multiplication.L02zero_mul
 #. §0: `zero_mul x`
