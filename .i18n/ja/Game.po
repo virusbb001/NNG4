@@ -2021,8 +2021,8 @@ msgid ""
 msgstr ""
 "§0 をどのように定義すべきでしょうか。加法と同様に、§1 の場合と §2 が後者である場合について、それぞれ定義を与える必要があります。\n"
 "\n"
-"0 の場合は簡単です。§3 を §4 と定義します。次に、§5 を仮定します。このとき §6 "
-"はどのようになるべきでしょうか。そうですね、これは §7 個の §8 ですから、§9 であるべきでしょう。\n"
+"0 の場合は簡単です。§3 を §4 と定義します。次に、§5 を仮定します。このとき §6 はどのようになるべきでしょうか。そうですね、これは §7 "
+"個の §8 ですから、§9 であるべきでしょう。\n"
 "\n"
 "Lean における定義は以下の通りです。\n"
 "\n"
@@ -2077,11 +2077,11 @@ msgid ""
 "because we know §2 is a successor."
 msgstr ""
 "補題の新しい「*」タブを確認してください。ここには §0 と §1 が含まれています。\n"
-"現時点では、これらが乗算について知っている事実のすべてです。\n"
+"現時点では、これらが乗算について私たちが知っている事実のすべてです。\n"
 "あと9つ、証明してみましょう。\n"
 "\n"
 "まずは準備運動から始めます。この問題に帰納法は必要ありません。\n"
-"なぜなら、私たちは §2 が後者であることを知っているからです。"
+"なぜなら、§2 が後者であることを私たちは知っているからです。"
 
 # lean4game-statement
 #: Game.Levels.Multiplication.L01mul_one Game.Levels.Multiplication.L05one_mul
@@ -2096,21 +2096,19 @@ msgstr "任意の自然数 §0 に対して §1 が成り立つ。"
 #. §1: `0 * x = 0`
 #. §2: `zero_mul`
 #. §3: `simp`
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
 "Note: §2 is a §3 lemma."
 msgstr ""
-"§0 は、§1 の証明を示します。\n"
+"§0 は §1 の証明です。\n"
 "\n"
-"注：§2 は、§3 の補題です。"
+"注：§2 は §3 補題です。"
 
 #: Game.Levels.Multiplication.L02zero_mul
 #. §0: `mul_comm x y : x * y = y * x`
 #. §1: `mul_zero`
 #. §2: `zero_mul`
-#, fuzzy
 msgid ""
 "Our first challenge is §0,\n"
 "and we want to prove it by induction. The zero\n"
@@ -2118,12 +2116,11 @@ msgid ""
 "and §2 (which we don't), so let's\n"
 "start with this."
 msgstr ""
-"最初の課題は§0ですが、帰納法を用いて証明します。\n"
-"ゼロの場合には§1（定義済み）と§2（定義されていません）が必要です。まずはこの部分から取り組みます。"
+"最初の課題は §0 です。これを数学的帰納法を用いて証明してみましょう。\n"
+"0 のケースには §1（定義済み）と §2（未定義）が必要ですので、まずはこの部分から取り組みます。"
 
 # no-translate
 #: Game.Levels.Multiplication.L02zero_mul
-#, fuzzy
 msgid "zero_mul"
 msgstr "zero_mul"
 
