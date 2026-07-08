@@ -2067,7 +2067,6 @@ msgstr ""
 #. §0: `mul_zero`
 #. §1: `mul_succ`
 #. §2: `1`
-#, fuzzy
 msgid ""
 "See the new \"*\" tab in your lemmas, containing §0 and §1.\n"
 "Right now these are the only facts we know about multiplication.\n"
@@ -2124,22 +2123,22 @@ msgstr ""
 msgid "zero_mul"
 msgstr "zero_mul"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L03succ_mul
 #. §0: $a$
 #. §1: $b$
 #. §2: $(\\operatorname{succ}\\ a) \\times b = a\\times b + b$
-#, fuzzy
 msgid ""
 "For all natural numbers §0 and §1, we have\n"
 "§2."
 msgstr ""
 "すべての自然数 §0 と §1 について、\n"
-"§2。"
+"§2が成り立つ。"
 
+# 用語集のセーブデータだと状況として不自然な訳だったので、"ゲームの進行状況" と翻訳
 #: Game.Levels.Multiplication.L03succ_mul
 #. §0: `mul_succ`
 #. §1: `succ_mul`
-#, fuzzy
 msgid ""
 "Similarly we have §0\n"
 "but we're going to need §1 (guess what it says -- maybe you\n"
@@ -2150,14 +2149,13 @@ msgid ""
 "home screen by clicking the house icon and then taking a look.\n"
 "You won't lose any progress."
 msgstr ""
-"同様に §0 もありますが、§1 が必要です (内容を推測してみてください。Lean の命名規則をご理解いただけているかもしれません)。\n"
+"同様に §0 もありますが、§1 が必要になります（中身が何であるか推測してみてください。Lean の命名規則にも慣れてきた頃ではないでしょうか）。\n"
 "\n"
-"加算ワールドの最後のレベルが、このレベルを攻略するのに役立つ可能性があります。もし内容を忘れてしまった場合は、ホーム画面に戻るためにアイコンをクリックし"
-"てください。進捗は失われません。"
+"加算ワールドの最後のレベルが、このレベルの攻略に役立つかもしれません。もし内容を忘れてしまった場合は、家のアイコンをクリックしてホーム画面に戻り、確認し"
+"てみましょう。ゲームの進行状況が失われることはありません。"
 
 # no-translate
 #: Game.Levels.Multiplication.L03succ_mul
-#, fuzzy
 msgid "succ_mul"
 msgstr "succ_mul"
 
@@ -2168,16 +2166,16 @@ msgstr "succ_mul"
 #. §3: `mul_comm`
 #. §4: `mul_comm`
 #. §5: `mul_succ`
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
 "It could be deduced from §2 and §3, however this argument\n"
 "would be circular because the proof of §4 uses §5."
 msgstr ""
-"§0 は §1 の証明を示します。\n"
+"§0 は §1 の証明です。\n"
 "\n"
-"ただし、これは §2 と §3 から導出可能ですが、この議論は循環しており、§4 の証明において §5 が使用されているためです。"
+"この補題は §2 および §3 から導出することもできますが、§4 の証明において §5 "
+"が使用されているため、そのような議論は循環論法になってしまいます。"
 
 #: Game.Levels.Multiplication.L04mul_comm
 #. §0: `mul_comm x y : x * y = y * x`
