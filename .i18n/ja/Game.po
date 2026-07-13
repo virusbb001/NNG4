@@ -2181,7 +2181,6 @@ msgstr ""
 #. §0: `mul_comm x y : x * y = y * x`
 #. §1: `zero_mul`
 #. §2: `mul_zero`
-#, fuzzy
 msgid ""
 "The first sub-boss of Multiplication World is §0.\n"
 "\n"
@@ -2190,35 +2189,31 @@ msgid ""
 "But we'll keep hold of these proofs anyway, because it's convenient\n"
 "to have exactly the right tool for a job."
 msgstr ""
-"乗算ワールドの最初のサブボスは§0です。\n"
+"乗算ワールドの最初のサブボスは §0 です。\n"
 "\n"
-"この定理を証明すると、「余剰」な証明が得られます。\n"
-"例えば、§2から容易に導かれる§1があります。\n"
-"ただし、これらの証明は保持しておきます。\n"
-"特定のタスクに適した道具を手元に置いておくためです。"
+"この定理を証明すると、§2 から容易に導ける §1 "
+"のような「余分な」証明が得られることになります。しかし、これらの証明はそのまま手元に残しておきます。ある作業に対してまさに適切な道具を持っておくことは便"
+"利だからです。"
 
 # no-translate
 #: Game.Levels.Multiplication.L04mul_comm
-#, fuzzy
 msgid "mul_comm"
 msgstr "mul_comm"
 
 #: Game.Levels.Multiplication.L04mul_comm
-#, fuzzy
 msgid "Multiplication is commutative."
-msgstr "乗算は交換律を満たします。"
+msgstr "乗算は交換法則を満たします。"
 
 #: Game.Levels.Multiplication.L04mul_comm
 #. §0: `mul_comm`
 #. §1: `mul_comm a b`
 #. §2: `a * b = b * a`
-#, fuzzy
 msgid ""
 "§0 is the proof that multiplication is commutative. More precisely,\n"
 "§1 is the proof that §2."
 msgstr ""
-"§0 は、乗算における交換法則の成立を示す証明です。より具体的には、\n"
-"§1 は、§2 が交換法則を満たすことを示す証明です。"
+"§0 は乗算が交換法則を満たすことの証明です。より具体的には、\n"
+"§1 は §2 の証明です。"
 
 #: Game.Levels.Multiplication.L05one_mul
 #. §0: $1\\times m=m$
