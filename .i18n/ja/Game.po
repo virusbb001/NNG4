@@ -2265,42 +2265,39 @@ msgstr "このレベルは、皆さんが思っている以上に重要です。
 #. §1: $b$
 #. §2: $c$
 #. §3: $a(b + c) = ab + ac$
-#, fuzzy
 msgid ""
 "Multiplication is distributive over addition on the left.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"乗算は、左から加算に関して分配法則に従います。\n"
-"すなわち、任意の自然数 §0, §1, §2 について、以下の関係が成立します。\n"
-"§3."
+"乗算は左側から加算に対して分配可能です。\n"
+"言い換えると、すべての自然数 §0, §1, §2 について、\n"
+"§3 が成り立ちます。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: `a`
 #. §1: `b`
 #. §2: `c`
-#, fuzzy
 msgid ""
 "Induction on §0 is the most troublesome, then §1,\n"
 "and §2 is the easiest."
-msgstr "帰納法における§0のケースが最も困難であり、次に§1、そして§2が最も容易です。"
+msgstr "§0 に関する帰納法が最も難しく、次が §1 で、§2 が最も簡単です。"
 
 #: Game.Levels.Multiplication.L07mul_add
-#, fuzzy
 msgid ""
 "You can do induction on any of the three variables. Some choices\n"
 "are harder to push through than others. Can you do the inductive step in\n"
 "5 rewrites only?"
 msgstr ""
-"任意の3つの変数に対して、帰納法を適用することができます。しかし、すべての選択肢が容易ではありません。5"
-"回の書き換えで、帰納的ステップを実行することは可能でしょうか？"
+"3つの変数のどれに対しても帰納法を適用できますが、選択によっては証明が難しくなることがあります。5"
+"回の書き換えだけで帰納的ステップを実行できるでしょうか？"
 
 # no-translate
 #: Game.Levels.Multiplication.L07mul_add
-#, fuzzy
 msgid "mul_add"
 msgstr "mul_add"
 
+# 1行目は他の翻訳と同じとなるように設定
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: ```
 #. induction c with d hd
@@ -2311,24 +2308,22 @@ msgstr "mul_add"
 #. ```
 #. §1: `a`
 #. §2: `b`
-#, fuzzy
 msgid ""
 "Here's my solution:\n"
 "§0\n"
 "\n"
 "Inducting on §1 or §2 also works, but might take longer."
 msgstr ""
-"私の解法：\n"
+"解答例は以下の通りです：\n"
 "§0\n"
 "\n"
-"§1 または §2 に関する帰納法も有効ですが、より時間のかかる場合があります。"
+"§1 や §2 で帰納法を用いることでも証明できますが、少し時間がかかるかもしれません。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: $a(b+c)=ab+ac$
 #. §1: $(b+c)a=ba+ca$
 #. §2: `mul_add a b c`
 #. §3: `a * (b + c) = a * b + a * c`
-#, fuzzy
 msgid ""
 "Our next goal is \"left and right distributivity\",\n"
 "meaning §0 and §1. Rather than\n"
@@ -2338,21 +2333,20 @@ msgid ""
 "Note that the left hand side contains a multiplication\n"
 "and then an addition."
 msgstr ""
-"次の目標は「左と右の分配法則」を達成することです。具体的には、式§0と§1"
-"についてです。これらの表現はやや冗長ですが、Leanの証明名は説明的であるという原則に従います。まずは、式§3の証明である§2"
-"から始めましょう。留意すべき点は、左辺には乗算が含まれており、その後に加算が行われることです。"
+"次のゴールは「左および右の分配法則（left and right distributivity）」、つまり §0 と §1 "
+"です。このような少々堅苦しい名称よりも、Lean における証明名は、その内容を表すようなものになっています。まずは §3 の証明である §2 "
+"から始めましょう。左辺には乗算と、その後の加算が含まれていることに注目してください。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: `mul_add a b c`
 #. §1: `a * (b + c) = a * b + a * c`
-#, fuzzy
 msgid ""
 "Multiplication distributes\n"
 "over addition on the left.\n"
 "\n"
 "§0 is the proof that §1."
 msgstr ""
-"乗算は、加算に対して左側で分配されます。\n"
+"乗算は加算に対して左から分配されます。\n"
 "\n"
 "§0 は §1 の証明です。"
 
