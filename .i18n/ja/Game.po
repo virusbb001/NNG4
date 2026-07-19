@@ -2251,16 +2251,14 @@ msgstr ""
 
 # no-translate
 #: Game.Levels.Multiplication.L06two_mul
-#, fuzzy
 msgid "two_mul"
 msgstr "two_mul"
 
 #: Game.Levels.Multiplication.L06two_mul
-#, fuzzy
 msgid ""
 "This level is more important than you think; it plays\n"
 "a useful role when battling a big boss later on."
-msgstr "このレベルは、想像以上に重要な役割を担います。特に、後で登場する強力なボスとの戦闘において、その有効性が発揮されます。"
+msgstr "このレベルは、皆さんが思っている以上に重要です。後ほど強力なボスと戦う際、ここで学ぶことが役に立ちます。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: $a$
