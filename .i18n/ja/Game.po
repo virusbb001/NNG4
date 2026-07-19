@@ -2218,26 +2218,22 @@ msgstr ""
 #: Game.Levels.Multiplication.L05one_mul
 #. §0: $1\\times m=m$
 #. §1: `succ_mul`
-#, fuzzy
 msgid ""
 "You can prove §0 in at least three ways.\n"
 "Either by induction, or by using §1, or\n"
 "by using commutativity. Which do you think is quickest?"
 msgstr ""
-"少なくとも3つの方法で§0を証明できます。\n"
-"いずれも、帰納法を用いる方法、§1を利用する方法、または交換律を用いる方法です。\n"
-"これらのうち、最も効率的な方法はどれだとお考えですか？"
+"§0 は少なくとも3通りの方法で証明できます。\n"
+"帰納法を用いる方法、§1 を利用する方法、あるいは交換法則を用いる方法です。どの方法が一番速いと思いますか？"
 
 #: Game.Levels.Multiplication.L05one_mul
 #. §0: `one_mul m`
 #. §1: `1 * m = m`
-#, fuzzy
 msgid "§0 is the proof §1."
-msgstr "§0 は §1 の証明を示す。"
+msgstr "§0 は §1 の証明です。"
 
 # no-translate
 #: Game.Levels.Multiplication.L05one_mul
-#, fuzzy
 msgid "one_mul"
 msgstr "one_mul"
 
@@ -2246,12 +2242,11 @@ msgstr "one_mul"
 #. rw [mul_comm, mul_one]
 #. rfl
 #. ```
-#, fuzzy
 msgid ""
 "Here's my solution:\n"
 "§0"
 msgstr ""
-"私の解決策：\n"
+"解答例は以下の通りです：\n"
 "§0"
 
 # no-translate
