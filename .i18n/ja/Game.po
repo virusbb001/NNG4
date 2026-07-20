@@ -2357,40 +2357,36 @@ msgstr ""
 #. repeat rw [mul_comm c]
 #. rfl
 #. ```
-#, fuzzy
 msgid ""
 "Here's my proof:\n"
 "§0"
 msgstr ""
-"私の証明：\n"
+"以下が証明の例です。\n"
 "§0"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L08add_mul
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $(a + b) \\times c = ac + bc$
-#, fuzzy
 msgid ""
 "Addition is distributive over multiplication.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"加法は乗法に関して分配法則が成り立ちます。\n"
-"すなわち、任意の自然数 §0, §1, §2 について、以下の式が成立します。\n"
-"§3。"
+"加法は乗法に関して分配的である。\n"
+"言い換えると、任意の自然数 §0, §1, §2 について、 §3 が成り立つ。"
 
 #: Game.Levels.Multiplication.L08add_mul
 #. §0: `add_mul`
-#, fuzzy
 msgid ""
 "§0 is just as fiddly to prove by induction; but there's a trick\n"
 "which avoids it. Can you spot it?"
-msgstr "§0を帰納法で証明することは、同様に複雑です。しかし、それを利用せずに証明できる方法があります。それは何かを見抜けますか？"
+msgstr "§0 の証明も同様に帰納法を使うと手間がかかりますが、それを使わずに済むコツがあります。何だか分かりますか？"
 
 # no-translate
 #: Game.Levels.Multiplication.L08add_mul
-#, fuzzy
 msgid "add_mul"
 msgstr "add_mul"
 
