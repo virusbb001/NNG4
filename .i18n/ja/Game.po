@@ -2392,21 +2392,19 @@ msgstr "add_mul"
 
 # no-translate
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid "mul_assoc"
 msgstr "mul_assoc"
 
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid ""
 "A passing mathematician notes that you've proved\n"
 "that the natural numbers are a commutative semiring.\n"
 "\n"
 "If you want to begin your journey to the final boss, head for Power World."
 msgstr ""
-"通りすがりの数学者が、自然数が可換半環であることを証明したことを指摘しました。\n"
+"通りすがりの数学者が、自然数が可換半環であることをあなたが証明したことに気がつきました。\n"
 "\n"
-"最終ボスとの戦いを開始するには、冪乗ワールドへ進んでください。"
+"最終ボスへの旅を始めるなら、冪乗ワールドへ向かいましょう。"
 
 #: Game.Levels.Multiplication.L09mul_assoc
 #. §0: `mul_assoc a b c`
@@ -2416,7 +2414,6 @@ msgstr ""
 #. §4: `(a * b) * c = a * (b * c)`
 #. §5: `(6 - 2) - 1`
 #. §6: `6 - (2 - 1)`
-#, fuzzy
 msgid ""
 "§0 is a proof that §1.\n"
 "\n"
@@ -2428,32 +2425,29 @@ msgid ""
 msgstr ""
 "§0 は §1 の証明です。\n"
 "\n"
-"Lean が §2 と言った場合、それは §3 を意味します。\n"
+"Lean が §2 と言うとき、それは §3 を意味することに注意してください。\n"
 "\n"
-"Lean では、§4 は「純粋な思考」だけでは証明できません：\n"
-"例えば、減算は結合法則を満たさないため、§5 は §6 と等しくありません。"
+"なお、§4 は「純粋な思考」のみによって証明することはできません。例えば、減算には結合法則が成り立たないため、§5 は §6 と等しくありません。"
 
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid ""
 "We now have enough to prove that multiplication is associative,\n"
 "the boss level of multiplication world. Good luck!"
-msgstr "乗算が結合的であることを証明するための準備は整いました。これは、乗算ワールドのボスレベルです。成功をお祈りします！"
+msgstr "乗算が結合的であることを証明する準備が整いました。これは乗算ワールドのボスレベルです。健闘を祈ります！"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L09mul_assoc
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $(ab)c = a(bc)$
-#, fuzzy
 msgid ""
 "Multiplication is associative.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"乗算は結合法則に従います。\n"
-"言い換えれば、任意の自然数 §0, §1, §2 について、以下のことが成り立ちます。\n"
-"§3。"
+"乗算は結合法則を満たす。\n"
+"言い換えれば、任意の自然数 §0, §1, §2 について、 §3 が成り立つ。"
 
 #: Game.Levels.Implication
 #, fuzzy

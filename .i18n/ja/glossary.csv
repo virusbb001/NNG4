@@ -31,6 +31,7 @@ commutative monoid,可換モノイド
 additive monoid,加法的モノイド,この表現自体は直接使用されないが、参考訳として記載
 commutative ring,可換環
 commutative semiring,可換半環
+multiplication,乗算
 
 # Lean
 /tactics?/,タクティク
