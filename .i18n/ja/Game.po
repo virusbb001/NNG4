@@ -1983,7 +1983,6 @@ msgstr ""
 "「ホーム」をクリックして、どちらに進むか選んでください。"
 
 #: Game.Levels.Multiplication
-#, fuzzy
 msgid "Multiplication World"
 msgstr "乗算ワールド"
 
@@ -2002,7 +2001,6 @@ msgstr "乗算ワールド"
 #. §11: `mul_succ a d : a * succ d = a * d + a`
 #. §12: `a * b = b * a`
 #. §13: `a * (b + c) = a * b + a * c`
-#, fuzzy
 msgid ""
 "How should we define §0? Just like addition, we need to give definitions\n"
 "when §1 and when §2 is a successor.\n"
@@ -2021,24 +2019,21 @@ msgid ""
 "like §13.\n"
 "Let's get started."
 msgstr ""
-"どのように §0 を定義すべきでしょうか？加法と同様に、§1 であるときと §2 が successor "
-"であるときそれぞれに定義を提供する必要があります。\n"
+"§0 をどのように定義すべきでしょうか。加法と同様に、§1 の場合と §2 が後者である場合について、それぞれ定義を与える必要があります。\n"
 "\n"
-"ゼロの場合は簡単です：§3 を §4 で定義します。次に §5 を仮定します。§6 のときはどうでしょうか？そうですね、§7 §8 になるので、\n"
-"§9になるべきでしょう。\n"
+"0 の場合は簡単です。§3 を §4 と定義します。次に、§5 を仮定します。このとき §6 はどのようになるべきでしょうか。そうですね、これは §7 "
+"個の §8 ですから、§9 であるべきでしょう。\n"
 "\n"
-"Lean での定義は以下の通りです。\n"
+"Lean における定義は以下の通りです。\n"
 "\n"
 "  * §10\n"
 "  * §11\n"
 "\n"
-"このワールドでは、乗法に関する事実だけでなく、乗法と加法の相互作用に関する事実も証明する必要があります。例えば §12 など。そして §13 "
-"なども証明する必要があります。\n"
-"始めましょう。"
+"このワールドでは、§12 のような乗法に関する事実だけでなく、§13 "
+"のように乗法が加法とどのように相互作用するかという事実も証明しなければなりません。それでは始めましょう。"
 
 # no-translate
 #: Game.Levels.Multiplication.L01mul_one
-#, fuzzy
 msgid "mul_one"
 msgstr "mul_one"
 
@@ -2048,7 +2043,6 @@ msgstr "mul_one"
 #. §2: `mul_zero a : a * 0 = 0`
 #. §3: `mul_succ a b : a * succ b = a * b + a`
 #. §4: `zero_mul`
-#, fuzzy
 msgid ""
 "§0, with notation §1, is the usual\n"
 "  product of natural numbers. Internally it is\n"
@@ -2061,19 +2055,18 @@ msgid ""
 "Other theorems about naturals, such as §4,\n"
 "are proved by induction from these two basic theorems."
 msgstr ""
-"§1 で表記される §0 は、自然数の積を表す一般的な概念です。内部的には、以下の2つの公理を用いて定義されます：\n"
+"§0（表記は §1）は、自然数の通常の積です。内部的には、以下の2つの公理によって定義されます。\n"
 "\n"
 "* §2\n"
 "\n"
 "* §3\n"
 "\n"
-"また、§4のような他の自然数に関する定理は、これらの基本定理から帰納法によって証明されます。"
+"§4 のような自然数に関する他の定理は、これら2つの基本的な定理から帰納法を用いて証明されます。"
 
 #: Game.Levels.Multiplication.L01mul_one
 #. §0: `mul_zero`
 #. §1: `mul_succ`
 #. §2: `1`
-#, fuzzy
 msgid ""
 "See the new \"*\" tab in your lemmas, containing §0 and §1.\n"
 "Right now these are the only facts we know about multiplication.\n"
@@ -2082,41 +2075,39 @@ msgid ""
 "Let's start with a warm-up: no induction needed for this one,\n"
 "because we know §2 is a successor."
 msgstr ""
-"新しい「*」タブを確認してください。このタブには、§0 と §1 が表示されます。\n"
-"現在、これらは乗算に関する唯一の既知的事実です。\n"
-"それでは、さらに9つの定理を証明しましょう。\n"
+"補題の新しい「*」タブを確認してください。ここには §0 と §1 が含まれています。\n"
+"現時点では、これらが乗算について私たちが知っている事実のすべてです。\n"
+"あと9つ、証明してみましょう。\n"
 "\n"
-"まずは簡単な例から始めましょう。この場合は、帰納法は不要です。\n"
-"なぜなら、§2 は後者であるためです。"
+"まずは準備運動から始めます。この問題に帰納法は必要ありません。\n"
+"なぜなら、§2 が後者であることを私たちは知っているからです。"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L01mul_one Game.Levels.Multiplication.L05one_mul
 #: Game.Levels.Multiplication.L06two_mul
 #. §0: $m$
 #. §1: $ m \\times 1 = m$
-#, fuzzy
 msgid "For any natural number §0, we have §1."
-msgstr "任意の自然数 §0 に対しては、§1 が成り立ちます。"
+msgstr "任意の自然数 §0 に対して §1 が成り立つ。"
 
 #: Game.Levels.Multiplication.L02zero_mul
 #. §0: `zero_mul x`
 #. §1: `0 * x = 0`
 #. §2: `zero_mul`
 #. §3: `simp`
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
 "Note: §2 is a §3 lemma."
 msgstr ""
-"§0 は、§1 の証明を示します。\n"
+"§0 は §1 の証明です。\n"
 "\n"
-"注：§2 は、§3 の補題です。"
+"注：§2 は §3 補題です。"
 
 #: Game.Levels.Multiplication.L02zero_mul
 #. §0: `mul_comm x y : x * y = y * x`
 #. §1: `mul_zero`
 #. §2: `zero_mul`
-#, fuzzy
 msgid ""
 "Our first challenge is §0,\n"
 "and we want to prove it by induction. The zero\n"
@@ -2124,31 +2115,30 @@ msgid ""
 "and §2 (which we don't), so let's\n"
 "start with this."
 msgstr ""
-"最初の課題は§0ですが、帰納法を用いて証明します。\n"
-"ゼロの場合には§1（定義済み）と§2（定義されていません）が必要です。まずはこの部分から取り組みます。"
+"最初の課題は §0 です。これを数学的帰納法を用いて証明してみましょう。\n"
+"0 のケースには §1（定義済み）と §2（未定義）が必要ですので、まずはこの部分から取り組みます。"
 
 # no-translate
 #: Game.Levels.Multiplication.L02zero_mul
-#, fuzzy
 msgid "zero_mul"
 msgstr "zero_mul"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L03succ_mul
 #. §0: $a$
 #. §1: $b$
 #. §2: $(\\operatorname{succ}\\ a) \\times b = a\\times b + b$
-#, fuzzy
 msgid ""
 "For all natural numbers §0 and §1, we have\n"
 "§2."
 msgstr ""
 "すべての自然数 §0 と §1 について、\n"
-"§2。"
+"§2が成り立つ。"
 
+# 用語集のセーブデータだと状況として不自然な訳だったので、"ゲームの進行状況" と翻訳
 #: Game.Levels.Multiplication.L03succ_mul
 #. §0: `mul_succ`
 #. §1: `succ_mul`
-#, fuzzy
 msgid ""
 "Similarly we have §0\n"
 "but we're going to need §1 (guess what it says -- maybe you\n"
@@ -2159,14 +2149,13 @@ msgid ""
 "home screen by clicking the house icon and then taking a look.\n"
 "You won't lose any progress."
 msgstr ""
-"同様に §0 もありますが、§1 が必要です (内容を推測してみてください。Lean の命名規則をご理解いただけているかもしれません)。\n"
+"同様に §0 もありますが、§1 が必要になります（中身が何であるか推測してみてください。Lean の命名規則にも慣れてきた頃ではないでしょうか）。\n"
 "\n"
-"加算ワールドの最後のレベルが、このレベルを攻略するのに役立つ可能性があります。もし内容を忘れてしまった場合は、ホーム画面に戻るためにアイコンをクリックし"
-"てください。進捗は失われません。"
+"加算ワールドの最後のレベルが、このレベルの攻略に役立つかもしれません。もし内容を忘れてしまった場合は、家のアイコンをクリックしてホーム画面に戻り、確認し"
+"てみましょう。ゲームの進行状況が失われることはありません。"
 
 # no-translate
 #: Game.Levels.Multiplication.L03succ_mul
-#, fuzzy
 msgid "succ_mul"
 msgstr "succ_mul"
 
@@ -2177,22 +2166,21 @@ msgstr "succ_mul"
 #. §3: `mul_comm`
 #. §4: `mul_comm`
 #. §5: `mul_succ`
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
 "It could be deduced from §2 and §3, however this argument\n"
 "would be circular because the proof of §4 uses §5."
 msgstr ""
-"§0 は §1 の証明を示します。\n"
+"§0 は §1 の証明です。\n"
 "\n"
-"ただし、これは §2 と §3 から導出可能ですが、この議論は循環しており、§4 の証明において §5 が使用されているためです。"
+"この補題は §2 および §3 から導出することもできますが、§4 の証明において §5 "
+"が使用されているため、そのような議論は循環論法になってしまいます。"
 
 #: Game.Levels.Multiplication.L04mul_comm
 #. §0: `mul_comm x y : x * y = y * x`
 #. §1: `zero_mul`
 #. §2: `mul_zero`
-#, fuzzy
 msgid ""
 "The first sub-boss of Multiplication World is §0.\n"
 "\n"
@@ -2201,59 +2189,51 @@ msgid ""
 "But we'll keep hold of these proofs anyway, because it's convenient\n"
 "to have exactly the right tool for a job."
 msgstr ""
-"乗算ワールドの最初のサブボスは§0です。\n"
+"乗算ワールドの最初のサブボスは §0 です。\n"
 "\n"
-"この定理を証明すると、「余剰」な証明が得られます。\n"
-"例えば、§2から容易に導かれる§1があります。\n"
-"ただし、これらの証明は保持しておきます。\n"
-"特定のタスクに適した道具を手元に置いておくためです。"
+"この定理を証明すると、§2 から容易に導ける §1 "
+"のような「余分な」証明が得られることになります。しかし、これらの証明はそのまま手元に残しておきます。ある作業に対してまさに適切な道具を持っておくことは便"
+"利だからです。"
 
 # no-translate
 #: Game.Levels.Multiplication.L04mul_comm
-#, fuzzy
 msgid "mul_comm"
 msgstr "mul_comm"
 
 #: Game.Levels.Multiplication.L04mul_comm
-#, fuzzy
 msgid "Multiplication is commutative."
-msgstr "乗算は交換律を満たします。"
+msgstr "乗算は交換法則を満たします。"
 
 #: Game.Levels.Multiplication.L04mul_comm
 #. §0: `mul_comm`
 #. §1: `mul_comm a b`
 #. §2: `a * b = b * a`
-#, fuzzy
 msgid ""
 "§0 is the proof that multiplication is commutative. More precisely,\n"
 "§1 is the proof that §2."
 msgstr ""
-"§0 は、乗算における交換法則の成立を示す証明です。より具体的には、\n"
-"§1 は、§2 が交換法則を満たすことを示す証明です。"
+"§0 は乗算が交換法則を満たすことの証明です。より具体的には、\n"
+"§1 は §2 の証明です。"
 
 #: Game.Levels.Multiplication.L05one_mul
 #. §0: $1\\times m=m$
 #. §1: `succ_mul`
-#, fuzzy
 msgid ""
 "You can prove §0 in at least three ways.\n"
 "Either by induction, or by using §1, or\n"
 "by using commutativity. Which do you think is quickest?"
 msgstr ""
-"少なくとも3つの方法で§0を証明できます。\n"
-"いずれも、帰納法を用いる方法、§1を利用する方法、または交換律を用いる方法です。\n"
-"これらのうち、最も効率的な方法はどれだとお考えですか？"
+"§0 は少なくとも3通りの方法で証明できます。\n"
+"帰納法を用いる方法、§1 を利用する方法、あるいは交換法則を用いる方法です。どの方法が一番速いと思いますか？"
 
 #: Game.Levels.Multiplication.L05one_mul
 #. §0: `one_mul m`
 #. §1: `1 * m = m`
-#, fuzzy
 msgid "§0 is the proof §1."
-msgstr "§0 は §1 の証明を示す。"
+msgstr "§0 は §1 の証明です。"
 
 # no-translate
 #: Game.Levels.Multiplication.L05one_mul
-#, fuzzy
 msgid "one_mul"
 msgstr "one_mul"
 
@@ -2262,68 +2242,62 @@ msgstr "one_mul"
 #. rw [mul_comm, mul_one]
 #. rfl
 #. ```
-#, fuzzy
 msgid ""
 "Here's my solution:\n"
 "§0"
 msgstr ""
-"私の解決策：\n"
+"解答例は以下の通りです：\n"
 "§0"
 
 # no-translate
 #: Game.Levels.Multiplication.L06two_mul
-#, fuzzy
 msgid "two_mul"
 msgstr "two_mul"
 
 #: Game.Levels.Multiplication.L06two_mul
-#, fuzzy
 msgid ""
 "This level is more important than you think; it plays\n"
 "a useful role when battling a big boss later on."
-msgstr "このレベルは、想像以上に重要な役割を担います。特に、後で登場する強力なボスとの戦闘において、その有効性が発揮されます。"
+msgstr "このレベルは、皆さんが思っている以上に重要です。後ほど強力なボスと戦う際、ここで学ぶことが役に立ちます。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $a(b + c) = ab + ac$
-#, fuzzy
 msgid ""
 "Multiplication is distributive over addition on the left.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"乗算は、左から加算に関して分配法則に従います。\n"
-"すなわち、任意の自然数 §0, §1, §2 について、以下の関係が成立します。\n"
-"§3."
+"乗算は左側から加算に対して分配可能です。\n"
+"言い換えると、すべての自然数 §0, §1, §2 について、\n"
+"§3 が成り立ちます。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: `a`
 #. §1: `b`
 #. §2: `c`
-#, fuzzy
 msgid ""
 "Induction on §0 is the most troublesome, then §1,\n"
 "and §2 is the easiest."
-msgstr "帰納法における§0のケースが最も困難であり、次に§1、そして§2が最も容易です。"
+msgstr "§0 に関する帰納法が最も難しく、次が §1 で、§2 が最も簡単です。"
 
 #: Game.Levels.Multiplication.L07mul_add
-#, fuzzy
 msgid ""
 "You can do induction on any of the three variables. Some choices\n"
 "are harder to push through than others. Can you do the inductive step in\n"
 "5 rewrites only?"
 msgstr ""
-"任意の3つの変数に対して、帰納法を適用することができます。しかし、すべての選択肢が容易ではありません。5"
-"回の書き換えで、帰納的ステップを実行することは可能でしょうか？"
+"3つの変数のどれに対しても帰納法を適用できますが、選択によっては証明が難しくなることがあります。5"
+"回の書き換えだけで帰納的ステップを実行できるでしょうか？"
 
 # no-translate
 #: Game.Levels.Multiplication.L07mul_add
-#, fuzzy
 msgid "mul_add"
 msgstr "mul_add"
 
+# 1行目は他の翻訳と同じとなるように設定
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: ```
 #. induction c with d hd
@@ -2334,24 +2308,22 @@ msgstr "mul_add"
 #. ```
 #. §1: `a`
 #. §2: `b`
-#, fuzzy
 msgid ""
 "Here's my solution:\n"
 "§0\n"
 "\n"
 "Inducting on §1 or §2 also works, but might take longer."
 msgstr ""
-"私の解法：\n"
+"解答例は以下の通りです：\n"
 "§0\n"
 "\n"
-"§1 または §2 に関する帰納法も有効ですが、より時間のかかる場合があります。"
+"§1 や §2 で帰納法を用いることでも証明できますが、少し時間がかかるかもしれません。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: $a(b+c)=ab+ac$
 #. §1: $(b+c)a=ba+ca$
 #. §2: `mul_add a b c`
 #. §3: `a * (b + c) = a * b + a * c`
-#, fuzzy
 msgid ""
 "Our next goal is \"left and right distributivity\",\n"
 "meaning §0 and §1. Rather than\n"
@@ -2361,21 +2333,20 @@ msgid ""
 "Note that the left hand side contains a multiplication\n"
 "and then an addition."
 msgstr ""
-"次の目標は「左と右の分配法則」を達成することです。具体的には、式§0と§1"
-"についてです。これらの表現はやや冗長ですが、Leanの証明名は説明的であるという原則に従います。まずは、式§3の証明である§2"
-"から始めましょう。留意すべき点は、左辺には乗算が含まれており、その後に加算が行われることです。"
+"次のゴールは「左および右の分配法則（left and right distributivity）」、つまり §0 と §1 "
+"です。このような少々堅苦しい名称よりも、Lean における証明名は、その内容を表すようなものになっています。まずは §3 の証明である §2 "
+"から始めましょう。左辺には乗算と、その後の加算が含まれていることに注目してください。"
 
 #: Game.Levels.Multiplication.L07mul_add
 #. §0: `mul_add a b c`
 #. §1: `a * (b + c) = a * b + a * c`
-#, fuzzy
 msgid ""
 "Multiplication distributes\n"
 "over addition on the left.\n"
 "\n"
 "§0 is the proof that §1."
 msgstr ""
-"乗算は、加算に対して左側で分配されます。\n"
+"乗算は加算に対して左から分配されます。\n"
 "\n"
 "§0 は §1 の証明です。"
 
@@ -2386,60 +2357,54 @@ msgstr ""
 #. repeat rw [mul_comm c]
 #. rfl
 #. ```
-#, fuzzy
 msgid ""
 "Here's my proof:\n"
 "§0"
 msgstr ""
-"私の証明：\n"
+"以下が証明の例です。\n"
 "§0"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L08add_mul
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $(a + b) \\times c = ac + bc$
-#, fuzzy
 msgid ""
 "Addition is distributive over multiplication.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"加法は乗法に関して分配法則が成り立ちます。\n"
-"すなわち、任意の自然数 §0, §1, §2 について、以下の式が成立します。\n"
-"§3。"
+"加法は乗法に関して分配的である。\n"
+"言い換えると、任意の自然数 §0, §1, §2 について、 §3 が成り立つ。"
 
 #: Game.Levels.Multiplication.L08add_mul
 #. §0: `add_mul`
-#, fuzzy
 msgid ""
 "§0 is just as fiddly to prove by induction; but there's a trick\n"
 "which avoids it. Can you spot it?"
-msgstr "§0を帰納法で証明することは、同様に複雑です。しかし、それを利用せずに証明できる方法があります。それは何かを見抜けますか？"
+msgstr "§0 の証明も同様に帰納法を使うと手間がかかりますが、それを使わずに済むコツがあります。何だか分かりますか？"
 
 # no-translate
 #: Game.Levels.Multiplication.L08add_mul
-#, fuzzy
 msgid "add_mul"
 msgstr "add_mul"
 
 # no-translate
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid "mul_assoc"
 msgstr "mul_assoc"
 
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid ""
 "A passing mathematician notes that you've proved\n"
 "that the natural numbers are a commutative semiring.\n"
 "\n"
 "If you want to begin your journey to the final boss, head for Power World."
 msgstr ""
-"通りすがりの数学者が、自然数が可換半環であることを証明したことを指摘しました。\n"
+"通りすがりの数学者が、自然数が可換半環であることをあなたが証明したことに気がつきました。\n"
 "\n"
-"最終ボスとの戦いを開始するには、冪乗ワールドへ進んでください。"
+"最終ボスへの旅を始めるなら、冪乗ワールドへ向かいましょう。"
 
 #: Game.Levels.Multiplication.L09mul_assoc
 #. §0: `mul_assoc a b c`
@@ -2449,7 +2414,6 @@ msgstr ""
 #. §4: `(a * b) * c = a * (b * c)`
 #. §5: `(6 - 2) - 1`
 #. §6: `6 - (2 - 1)`
-#, fuzzy
 msgid ""
 "§0 is a proof that §1.\n"
 "\n"
@@ -2461,32 +2425,29 @@ msgid ""
 msgstr ""
 "§0 は §1 の証明です。\n"
 "\n"
-"Lean が §2 と言った場合、それは §3 を意味します。\n"
+"Lean が §2 と言うとき、それは §3 を意味することに注意してください。\n"
 "\n"
-"Lean では、§4 は「純粋な思考」だけでは証明できません：\n"
-"例えば、減算は結合法則を満たさないため、§5 は §6 と等しくありません。"
+"なお、§4 は「純粋な思考」のみによって証明することはできません。例えば、減算には結合法則が成り立たないため、§5 は §6 と等しくありません。"
 
 #: Game.Levels.Multiplication.L09mul_assoc
-#, fuzzy
 msgid ""
 "We now have enough to prove that multiplication is associative,\n"
 "the boss level of multiplication world. Good luck!"
-msgstr "乗算が結合的であることを証明するための準備は整いました。これは、乗算ワールドのボスレベルです。成功をお祈りします！"
+msgstr "乗算が結合的であることを証明する準備が整いました。これは乗算ワールドのボスレベルです。健闘を祈ります！"
 
+# lean4game-statement
 #: Game.Levels.Multiplication.L09mul_assoc
 #. §0: $a$
 #. §1: $b$
 #. §2: $c$
 #. §3: $(ab)c = a(bc)$
-#, fuzzy
 msgid ""
 "Multiplication is associative.\n"
 "In other words, for all natural numbers §0, §1 and §2, we have\n"
 "§3."
 msgstr ""
-"乗算は結合法則に従います。\n"
-"言い換えれば、任意の自然数 §0, §1, §2 について、以下のことが成り立ちます。\n"
-"§3。"
+"乗算は結合法則を満たす。\n"
+"言い換えれば、任意の自然数 §0, §1, §2 について、 §3 が成り立つ。"
 
 #: Game.Levels.Implication
 #, fuzzy
