@@ -2597,23 +2597,21 @@ msgstr ""
 #: Game.Levels.Implication.L02exact2
 #. §0: `rw [zero_add] at «{h}»`
 #. §1: `«{h}»`
-#, fuzzy
 msgid ""
 "You can use §0 to rewrite at §1 instead\n"
 "of at the goal."
-msgstr "§0 を使用して、目標ではなく §1 を書き換えることができます。"
+msgstr "§0 を使用すれば、ゴールではなく §1 を書き換えることができます。"
 
 #: Game.Levels.Implication.L02exact2
 #. §0: ```
 #. repeat rw [zero_add] at h
 #. exact h
 #. ```
-#, fuzzy
 msgid ""
 "Here's a two-line proof:\n"
 "§0"
 msgstr ""
-"以下は2行の証明です：\n"
+"こちらが2行の証明です:\n"
 "§0"
 
 #: Game.Levels.Implication.L02exact2
@@ -2622,7 +2620,6 @@ msgstr ""
 #. §2: `«{x}»`
 #. §3: `0 + «{x}»`
 #. §4: `0 + «{y}»`
-#, fuzzy
 msgid ""
 "Do that again!\n"
 "\n"
@@ -2630,27 +2627,25 @@ msgid ""
 "the arguments to §1 (finding §2) then it replaces all occurrences of\n"
 "§3 it finds. Therefor, it did not rewrite §4, yet."
 msgstr ""
-"再度実行してみてください。\n"
+"もう一度実行してみてください！\n"
 "\n"
-"§0は、§1の引数を埋める（§2を見つけます）ことを試みます。その後、見つかったすべての§3を置換します。したがって、§4はまだ書き換えられていません。"
+"§0 は §1 の引数を埋め（§2 を特定し）、その後 §3 を見つけ出してすべて置換しようとします。そのため、§4 はまだ書き換えられていません。"
 
 #: Game.Levels.Implication.L02exact2
-#, fuzzy
 msgid ""
 "If the goal is not *exactly* a hypothesis, we can sometimes\n"
 "use rewrites to fix things up."
-msgstr "目標が *厳密な* 仮説ではない場合、書き換えを利用して問題を解決できることがあります。"
+msgstr "ゴールが仮説と *厳密に* 一致していない場合、書き換えを利用してゴールを解決できることがあります。"
 
+# lean4game-statement
 #: Game.Levels.Implication.L02exact2
 #. §0: $0+x=(0+y)+2$
 #. §1: $x=y+2$
-#, fuzzy
 msgid "Assuming §0, we have §1."
-msgstr "前提として§0を仮定するならば、§1は成立します。"
+msgstr "§0 について、 §1 が成り立つ。"
 
 #: Game.Levels.Implication.L02exact2
 #. §0: `exact`
-#, fuzzy
 msgid "§0 practice."
 msgstr "§0 演習。"
 
@@ -2658,11 +2653,10 @@ msgstr "§0 演習。"
 #. §0: `rw [«{h}»]`
 #. §1: `rfl`
 #. §2: `exact «{h}»`
-#, fuzzy
 msgid ""
 "Now you could finish with §0 then §1, but §2\n"
 "does it in one line."
-msgstr "現在、§0 と §1 で処理を終えることができますが、§2 は 1 行で完結します。"
+msgstr "§0 を実行してから §1 を実行して終わらせることもできますが、§2 なら 1 行で完結します。"
 
 #: Game.Levels.Implication.L03apply
 #. §0: `apply`
