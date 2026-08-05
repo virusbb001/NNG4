@@ -2789,7 +2789,6 @@ msgstr ""
 #. §12: $\\forall a, b \\in  \\mathbb{N}, ( \\operatorname{succ}(a) = \\operatorname{succ}(b)) \\implies a=b$
 #. §13: `succ_inj`
 #. §14: `pred`
-#, fuzzy
 msgid ""
 "# Statement\n"
 "\n"
@@ -2816,19 +2815,17 @@ msgid ""
 msgstr ""
 "# 命題\n"
 "\n"
-"§0 と §1 が数値である場合、\n"
-"§2 は §3 の証明です。\n"
+"§0 と §1 が自然数であるとき、§2 は §3 の証明です。\n"
 "\n"
 "## さらなる技術的な詳細\n"
 "\n"
 "§4 について考える方法は他にもあります。\n"
 "\n"
-"§5 を、入力として 2 つの数値 §6 と §7 を受け取り、出力として §8 の証明を生成する関数と捉えることができます。\n"
+"§5 を、2 つの自然数 §6 と §7 を入力として受け取り、§8 の証明を出力する関数と捉えることもできます。\n"
 "\n"
-"§9 は自身が証明であり、これは §10 が単射関数であることを示す証明です。言い換えれば、\n"
-"§11 は §12 の証明となります。\n"
+"§9 自体を一つの証明と考えることもできます。これは、§10 が単射関数であることの証明です。言い換えれば、§11 は §12 の証明となります。\n"
 "\n"
-"ペアノによって公理として導入された §13 ですが、Lean では §14、すなわち数学的に異常な関数を用いて証明できます。"
+"§13 はペアノによって公理として導入されましたが、Lean では §14 という数学における病的な関数を用いて証明可能です。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `a`
@@ -2837,7 +2834,6 @@ msgstr ""
 #. §3: `succ a = succ b`
 #. §4: `a = b`
 #. §5: $x+1=4 \\implies x=3$
-#, fuzzy
 msgid ""
 "If §0 and §1 are numbers, then §2 is a proof\n"
 "that §3 implies §4. Click on this theorem in the *Peano*\n"
@@ -2849,13 +2845,13 @@ msgid ""
 "by manipulating our hypothesis until it becomes the goal. I will\n"
 "walk you through this level."
 msgstr ""
-"もし §0 と §1 が数値である場合、§2 は §3 が §4 を導くことの証明です。*Peano* "
-"タブでこの定理について詳しく知ることができます。\n"
+"もし §0 と §1 が自然数ならば、§2 は §3 ならば §4 の証明となります。この定理の詳細は、*Peano* "
+"タブをクリックして確認してください。\n"
 "\n"
-"Peanoはこの定理を公理としていましたが、アルゴリズムワールドでは Lean "
-"を用いてこの定理を証明する方法を示します。現在ではこの定理を仮定し、§5 "
-"を用いて証明しましょう。また、証明は仮定を操作することで目標に近づけることで進めていきます。このレベルについて一緒に学びましょう。"
+"ペアノはこの定理を公理としていましたが、アルゴリズムワールドでは Lean で証明する方法を学びます。今回はこの定理を公理として受け入れ、それを用いて "
+"§5 を証明しましょう。ここでも、仮定を操作してゴールを解決する手順で進めていきます。このレベルは一緒に解いていきましょう。"
 
+# lean4game-statement
 #: Game.Levels.Implication.L04succ_inj Game.Levels.Implication.L05succ_inj2
 #: Game.Levels.Algorithm.L05pred Game.Levels.Algorithm.L07succ_ne_succ
 #: Game.Levels.AdvAddition.L05add_right_eq_zero
@@ -2863,90 +2859,83 @@ msgstr ""
 #: Game.Levels.LessOrEqual.L09succ_le_succ
 #. §0: $x+1=4$
 #. §1: $x=3$
-#, fuzzy
 msgid "If §0 then §1."
-msgstr "§0 ならば、§1。"
+msgstr "§0 ならば §1。"
 
 #: Game.Levels.Implication.L04succ_inj
-#, fuzzy
 msgid "In the next level, we'll do the same proof but backwards."
-msgstr "次のレベルでは、同様の手続きを用いて、証明を逆方向に展開します。"
+msgstr "次のレベルでは、同様の証明を逆順で行います。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `h`
 #. §1: `succ x = succ 3`
 #. §2: `succ_inj`
 #. §3: `rw [four_eq_succ_three] at h`
-#, fuzzy
 msgid ""
 "Let's first get §0 into the form §1 so we can\n"
 "apply §2. First execute §3\n"
 "to change the 4 on the right hand side."
-msgstr ""
-"まず、§0 を §1 の形式に変換し、その後 §2 を適用します。\n"
-"最初に、§3 を実行して右辺の 4 を変更します。"
+msgstr "まずは §0 を §1 の形に変形して、§2 が使えるようにしましょう。手始めに §3 を実行して、右辺の 4 を書き換えます。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `succ_eq_add_one`
 #. §1: `h`
-#, fuzzy
 msgid ""
 "Now rewrite §0 backwards at §1\n"
 "to get the right hand side."
-msgstr "§1 を §0 で逆順に書き換えて、右辺を得ます。"
+msgstr "§1 を §0 で逆向きに書き換えて、右辺を得ます。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `apply`
 #. §1: `apply succ_inj at h`
 #. §2: `h`
 #. §3: `x = 3`
-#, fuzzy
 msgid ""
 "Now let's §0 our new theorem. Execute §1\n"
 "to change §2 to a proof of §3."
-msgstr "それでは、新しい定理を §0 しましょう。§1 を実行することで、`§2` を `§3` の証明に変換します。"
+msgstr "それでは、新しい定理を §0 しましょう。§1 を実行することで、§2 を §3 の証明に変換します。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `rw [← succ_eq_add_one] at h`
-#, fuzzy
 msgid "Concretely: §0."
-msgstr "具体的に：§0。"
+msgstr "具体的には、§0 です。"
 
+# §0: `←`
+# §1: `rw`
+# §2: `rw`
+# §3: `←`
+# §4: `\\l`
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `←`
 #. §1: `rw`
 #. §2: `rw`
 #. §3: `←`
 #. §4: `\\l`
-#, fuzzy
 msgid ""
 "You can put a §0 in front of any theorem provided to §1 to rewrite\n"
 "the other way around. Look at the docs for §2 for an explanation. Type §3 "
 "with §4."
 msgstr ""
-"任意の定理 §1 の先頭に §0 を付与することで、その定理を逆方向に記述することができます。詳細については、§2 "
-"のドキュメントをご参照ください。「§4」と入力し、その後「§3」を入力してください。"
+"§1 で使用する定理の先頭に §0 を付けると、書き換えの方向を逆にすることができます。詳細については §2 のドキュメントを参照してください。§4 "
+"と入力すれば §3 が入力されます。"
 
 #: Game.Levels.Implication.L04succ_inj
-#, fuzzy
 msgid "succ_inj : the successor function is injective"
 msgstr "succ_inj : 後者関数は単射"
 
 #: Game.Levels.Implication.L04succ_inj
-#, fuzzy
 msgid "Now finish in one line."
-msgstr "一行で証明を完結させます。"
+msgstr "あとは1行で完結させましょう。"
 
 #: Game.Levels.Implication.L04succ_inj
 #. §0: `exact h`
-#, fuzzy
 msgid ""
 "And now we've deduced what we wanted to prove: the goal is one of our "
 "assumptions.\n"
 "Finish the level with §0."
 msgstr ""
-"そして、目的を証明するために必要な結論を得ることができました。この結論が、当初提示した仮定の一つと一致します。\n"
-"レベルを完了するには、§0 を使用してください。"
+"これで証明したかったことが導かれました。ゴールが仮定の一つと一致します。\n"
+"§0 でレベルを完了させましょう。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #, fuzzy

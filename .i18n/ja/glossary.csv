@@ -32,6 +32,7 @@ additive monoid,加法的モノイド,この表現自体は直接使用されな
 commutative ring,可換環
 commutative semiring,可換半環
 multiplication,乗算
+pathological function,病的な関数,https://ja.wikipedia.org/wiki/%E7%97%85%E7%9A%84%E3%81%AA_(%E6%95%B0%E5%AD%A6)
 
 # Lean
 /tactics?/,タクティク
