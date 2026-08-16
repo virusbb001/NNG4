@@ -3135,16 +3135,15 @@ msgstr "§0 を実行してから §1 を実行してもゴールを解決でき
 #: Game.Levels.Implication.L08ne
 #. §0: `x ≠ y`
 #. §1: `x = y → False`
-#, fuzzy
 msgid "Remember, §0 is *notation* for §1."
 msgstr "覚えておいてください。§0 は §1 の *表記* です。"
 
+# lean4game-statement
 #: Game.Levels.Implication.L08ne
 #. §0: $x=y$
 #. §1: $x \\neq y$
-#, fuzzy
 msgid "If §0 and §1 then we can deduce a contradiction."
-msgstr "もし §0 が真であり、かつ §1 も真であるならば、矛盾を導き出すことができます。"
+msgstr "§0 かつ §1 であるならば、矛盾を導くことができる。"
 
 #: Game.Levels.Implication.L08ne
 #. §0: `a ≠ b`
@@ -3163,7 +3162,6 @@ msgstr "もし §0 が真であり、かつ §1 も真であるならば、矛�
 #. §13: `apply h at h1`
 #. §14: `h1`
 #. §15: `a = b`
-#, fuzzy
 msgid ""
 "§0 is *notation* for §1.\n"
 "\n"
@@ -3179,12 +3177,13 @@ msgid ""
 "form §12 then you can §13 if §14 is a proof\n"
 "of §15."
 msgstr ""
-"§0は§1の*表記*です。\n"
+"§0 は §1 の *表記* です。\n"
 "\n"
-"このことが数学的に成り立つ理由は、§2が真偽に関する主張である場合、§3は§4の論理的な否定であるからです。実際、§5は偽であり、§6は真です！\n"
+"このことが数学的に妥当な理由は、§2 が真偽を問う命題であるとき、§3 が §4 の論理的否定になるためです。実際、§5 は偽であり、§6 "
+"は真となります！\n"
 "\n"
-"このことから、§7を任意の推論§8と同じように扱うことができます。例えば、あなたの*目標*が§9のような形であれば、§10"
-"を用いて進展できます。また、仮定§11が§12のような形である場合、§13を行うことが可能です（ただし、§14が§15の証明である場合に限ります）。"
+"この結果、§7 を任意の含意 §8 と全く同様に扱うことができます。例えば、*ゴール* が §9 の形式であれば、§10 を用いて進むことができ、仮定 "
+"§11 が §12 の形式であれば、§14 が §15 の証明であるときに §13 を行うことができます。"
 
 #: Game.Levels.Implication.L08ne
 #. §0: `h2`
@@ -3192,18 +3191,13 @@ msgstr ""
 #. §2: `apply`
 #. §3: `h2`
 #. §4: `at h1`
-#, fuzzy
-#, fuzzy
 msgid ""
 "Remember that §0 is a proof of §1. Try\n"
 "§2ing §3 either §4 or directly to the goal."
-msgstr ""
-"§0は§1の証明であることを覚えておいてください。\n"
-"§2 §3 を、 §4 または直接目標に対して実行できます。"
+msgstr "§0 は §1 の証明であることを思い出してください。§2 §3 を、§4 で適用するか、あるいは直接ゴールに適用してみてください。"
 
 # no-translate
 #: Game.Levels.Implication.L08ne
-#, fuzzy
 msgid "≠"
 msgstr "≠"
 
@@ -3221,7 +3215,6 @@ msgstr "≠"
 #. §10: `a ≠ b`
 #. §11: `False`
 #. §12: `False`
-#, fuzzy
 msgid ""
 "We still can't prove §0 because we have not talked about the\n"
 "definition of §1. In Lean, §2 is *notation* for §3.\n"
@@ -3238,13 +3231,14 @@ msgid ""
 "So if your goal is §12 then you had better hope that your hypotheses\n"
 "are contradictory, which they are in this level."
 msgstr ""
-"まだ §0 の証明はできません。なぜなら、§1 の定義について議論していないからです。Lean では、§2 は §3 の *表記* です。\n"
-"ここでは §4 は一般的な偽命題であり、§5 は Lean における \"implies\" の表記です。論理学では §6 "
-"が偽であると学習しますが、§7 は真です。したがって §8 は §9 の論理的対偶となります。\n"
+"§0 を証明することはまだできません。なぜなら、§1 の定義についてまだ触れていないからです。Lean において §2 は §3 の *表記* です。\n"
+"ここで §4 は一般的な偽の命題であり、§5 は Lean における「含意」の表記です。論理学では §6 が偽、§7 "
+"が真であると学びます。したがって、§8 は §9 の論理的否定にあたります。\n"
 "\n"
-"§10 は含意のように見えないかもしれませんが、含意として扱うべきです。次の 2 つのレベルでその方法を学びます。\n"
+"§10 は一見すると含意の形には見えませんが、含意として扱う必要があります。その方法は次からの 2 つのレベルで示します。\n"
 "\n"
-"§11 は一貫性のある仮定から導き出せない目標です！したがって、目標が §12 の場合、仮定が矛盾していることを期待し、このレベルではそうしています。"
+"§11 は、矛盾のない仮定の集合からは導き出せないゴールです！もしゴールが §12 "
+"なら、仮定が矛盾していることを願うしかありません。実際、このレベルでは仮定が矛盾しています。"
 
 #: Game.Levels.Implication.L09zero_ne_succ
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
