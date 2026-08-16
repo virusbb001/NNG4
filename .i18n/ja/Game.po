@@ -2938,23 +2938,20 @@ msgstr ""
 "§0 でレベルを完了させましょう。"
 
 #: Game.Levels.Implication.L05succ_inj2
-#, fuzzy
 msgid "Arguing backwards"
-msgstr "推論を逆方向に進める"
+msgstr "逆向きの推論"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: `four_eq_succ_three`
-#, fuzzy
 msgid ""
 "Now rewrite §0 backwards to make the goal\n"
 "equal to the hypothesis."
-msgstr "§0 を逆順に書き換えることで、目標と仮定を等価にします。"
+msgstr "今度は §0 を逆に書き換えて、ゴールを仮定と同じにしましょう。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: `x + 1 = 4`
 #. §1: `x = 3`
 #. §2: `apply`
-#, fuzzy
 msgid ""
 "In the last level, we manipulated the hypothesis §0\n"
 "  until it became the goal §1. In this level we'll manipulate\n"
@@ -2963,14 +2960,14 @@ msgid ""
 "  Again I will walk you through this one (assuming you're in\n"
 "  command line mode)."
 msgstr ""
-"先程のレベルでは、仮定§0を操作して目標§1にしました。このレベルでは、目標を操作して仮定にします！つまり、「逆向きに議論」することです。§2 "
-"タクティクもこれを行うことができます。また、コマンドラインモードで操作していると仮定して、この例を一緒に見ていきましょう。"
+"前回のレベルでは仮定 §0 を操作してゴール §1 "
+"に変形させましたが、今回のレベルではゴールを操作して仮定へと変形させていきます！言い換えれば、「逆向きに推論」するわけです。 §2 "
+"タクティクを用いても同様のことが行えます。今回も、手順を一つずつ解説していきましょう（コマンドラインモードでプレイしていると仮定します）。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: `apply t at h`
 #. §1: `apply t`
 #. §2: `apply`
-#, fuzzy
 msgid ""
 "Many people find §0 easy, but some find §1 confusing.\n"
 "If you find it confusing, then just argue forwards.\n"
@@ -2979,38 +2976,33 @@ msgid ""
 "view by\n"
 "clicking on the tactic in the list on the right."
 msgstr ""
-"多くの人は§0を容易に理解しますが、一部の人々は§1について混乱することがあります。\n"
-"もし混乱する場合は、証明を前向きに進めてください。\n"
+"§0 を容易だと感じる人は多いですが、§1 は分かりにくいと感じる人もいます。\n"
+"もし分かりにくい場合は、単に前向きに推論を進めてみてください。\n"
 "\n"
-"§2"
-"のタクティクについては、その詳細な説明がドキュメンテーションに記載されています。リストの右側にあるタクティクをクリックすることで、ドキュメンテーションを"
-"表示できます。"
+"§2 タクティクについての詳細はドキュメントで確認できます。右側のリストにあるタクティク名をクリックすると表示されます。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: `exact h`
-#, fuzzy
 msgid "You can now finish with §0."
-msgstr "これで §0 の部分を完了してください。"
+msgstr "あとは §0 でゴールを解決できます。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: `apply succ_inj`
 #. §1: `succ_inj`
-#, fuzzy
 msgid "Start with §0 to apply §1 to the *goal*."
-msgstr "*目標*に §1 を適用するために、まず §0 を使用してください。"
+msgstr "*ゴール* に §1 を適用するために、§0 を実行してください。"
 
 #: Game.Levels.Implication.L05succ_inj2
 #. §0: $P\\implies Q$
 #. §1: $Q$
 #. §2: $P$
 #. §3: `rw [succ_eq_add_one]`
-#, fuzzy
 msgid ""
 "Applying a proof of §0 to the *goal* changes §1 to §2.\n"
 "Now try §3 to make the goal more like the hypothesis."
 msgstr ""
-"証明 §0 を *目標* に対して適用することで、§1 が §2 になります。\n"
-"次に §3 を試し、目標を仮定に近づけることを試みてください。"
+"証明 §0 を *ゴール* に適用すると、§1 は §2 になります。\n"
+"次に §3 を試して、ゴールを仮定の形に近づけてみてください。"
 
 # no-translate
 #: Game.Levels.Implication.L06intro
