@@ -3080,23 +3080,20 @@ msgstr ""
 #: Game.Levels.Implication.L07intro2
 #. §0: `apply succ_inj at h`
 #. §1: `succ`
-#, fuzzy
 msgid "Now §0 to cancel the §1s."
-msgstr "`§0` を使用して `§1` を消去します。"
+msgstr "§0 を使い、§1 を消去します。"
 
 #: Game.Levels.Implication.L07intro2
 #. §0: $x+1=y+1\\implies x=y$
-#, fuzzy
 msgid ""
 "Let's see if you can use the tactics we've learnt to prove §0.\n"
 "Try this one by yourself; if you need help then click on \"Show more "
 "help!\"."
 msgstr ""
-"これまで学んだタクティクを使って、§0の証明が可能か試してみましょう。\n"
-"ご自身で試すことをお勧めします。もしお手伝いが必要な場合は、「より多くのヘルプを表示！」をクリックしてください。"
+"これまで学んだタクティクを使って、§0 を証明できるか試してみましょう。\n"
+"まずはご自身で取り組んでみてください。もし助けが必要な場合は、「助けて！」をクリックしてください。"
 
 #: Game.Levels.Implication.L07intro2
-#, fuzzy
 msgid "intro practice"
 msgstr "intro 演習"
 
@@ -3107,37 +3104,33 @@ msgstr "intro 演習"
 #. repeat rw [succ_eq_add_one]
 #. exact h
 #. ```
-#, fuzzy
 msgid ""
 "Here's a completely backwards proof:\n"
 "§0"
 msgstr ""
-"以下は、完全に逆順の手順で構成された証明です：\n"
+"以下は、完全に逆順の証明です：\n"
 "§0"
 
 #: Game.Levels.Implication.L07intro2
 #. §0: `intro h`
-#, fuzzy
 msgid "Start with §0 to assume the hypothesis."
-msgstr "まず、 §0 を使用して仮説を提示します。"
+msgstr "まずは §0 を使って、仮定を導入しましょう。"
 
 #: Game.Levels.Implication.L07intro2
 #. §0: `repeat rw [← succ_eq_add_one] at h`
 #. §1: `h`
 #. §2: `succ x = succ y`
-#, fuzzy
 msgid ""
 "Now §0 is the quickest way to\n"
 "change §1 to §2."
-msgstr "現在、§0 は §1 を §2 に変更するための最も効率的な手段です。"
+msgstr "§0 を使うのが、§1 を §2 に書き換える一番の近道です。"
 
 #: Game.Levels.Implication.L07intro2
 #. §0: `rw [h]`
 #. §1: `rfl`
 #. §2: `exact h`
-#, fuzzy
 msgid "Now §0 then §1 works, but §2 is quicker."
-msgstr "現在、§0 および §1 は正しく機能しますが、§2 の方が高速です。"
+msgstr "§0 を実行してから §1 を実行してもゴールを解決できますが、§2 の方が素早く解決できます。"
 
 #: Game.Levels.Implication.L08ne
 #. §0: `x ≠ y`
