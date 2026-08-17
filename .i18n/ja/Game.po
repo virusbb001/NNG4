@@ -3401,23 +3401,21 @@ msgstr ""
 
 # no-translate
 #: Game.Levels.Implication.L11two_add_two_ne_five
-#, fuzzy
 msgid "2 + 2 ≠ 5"
 msgstr "2 + 2 ≠ 5"
 
 #: Game.Levels.Implication.L11two_add_two_ne_five
 #. §0: `zero_ne_succ`
 #. §1: `succ_inj`
-#, fuzzy
 msgid ""
 "2 + 2 ≠ 5 is boring to prove in full, given only the tools we have "
 "currently.\n"
 "To make it a bit less painful, I have unfolded all of the numerals for you.\n"
 "See if you can use §0 and §1 to prove this."
 msgstr ""
-"現在のツールだけでは、2 + 2 ≠ 5 の完全な証明は困難です。\n"
-"より簡単に証明できるよう、すべての数字を展開しました。\n"
-"§0 および §1 を使用して、この証明を試みてください。"
+"現在のツールだけで 2 + 2 ≠ 5 を完全に証明するのは退屈な作業です。\n"
+"少しでも楽ができるよう、すべての数値を展開しておきました。\n"
+"§0 と §1 を使って、この証明ができるか試してみてください。"
 
 #: Game.Levels.Implication.L11two_add_two_ne_five
 #. §0: ```
@@ -3444,13 +3442,14 @@ msgid ""
 "and\n"
 "decide your route."
 msgstr ""
-"私の証明：\n"
+"私の証明は以下の通りです。\n"
 "§0\n"
 "\n"
-"Leanは定理証明システムですが、現時点では十分な量の理論が開発されておらず、適切な計算機としての機能を十分に備えていません。アルゴリズムワールドでは、"
-"よりコンピュータサイエンスに特化した環境で、このような問題を扱うための機械を開発し、§1"
-"のような目標を達成することが可能になります。あるいは、不等式の理論を実現するための補題を証明する高度な加算ワールドで、より多くの数学を学ぶこともできます"
-"。「ホーム」をクリックして、ご自身のルートを選択してください。"
+"Lean "
+"は定理証明システムですが、現時点では十分な理論が構築されておらず、適切な計算機として扱うには力不足です。よりコンピュータサイエンスの側面が強いアルゴリズ"
+"ムワールドでは、こうした問題をより容易に解くための手法を構築し、§1 "
+"のようなゴールを解決できるようにしていきます。あるいは、高度な加算ワールドで不等式の理論を構築するために必要な補題を証明し、さらに数学を進めることも可能"
+"です。「ホーム」をクリックして、進むルートを選択してください。"
 
 #: Game.Levels.Power
 #. §0: `37 ^ n`
