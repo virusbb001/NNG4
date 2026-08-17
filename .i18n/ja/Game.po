@@ -3321,7 +3321,6 @@ msgstr "§0 を実行して始めてください。"
 #. §9: `symm at h`
 #. §10: `h`
 #. §11: `5 ≠ 2 + 2`
-#, fuzzy
 msgid ""
 "## Summary\n"
 "\n"
@@ -3339,19 +3338,18 @@ msgid ""
 msgstr ""
 "## 概要\n"
 "\n"
-"タクティク §0 は、目標または仮定が §1 の形式の場合を §2 に変更します。また、§3 および §4 も対象となります。\n"
+"§0 タクティクは、§1 の形式を持つゴールや仮定を §2 に変更します。また、§3 や §4 に対しても動作します。\n"
 "\n"
 "### 例\n"
 "\n"
-"もし目標が §5 の場合、§6 によってそれを §7 に変更します。\n"
+"ゴールが §5 である場合、§6 を実行することで §7 に変更されます。\n"
 "\n"
 "### 例\n"
 "\n"
-"もし §8 の場合、§9 によって §10 を §11 に変更します。"
+"§8 の場合、§9 を実行することで §10 を §11 に変更できます。"
 
 # no-translate
 #: Game.Levels.Implication.L10one_ne_zero
-#, fuzzy
 msgid "1 ≠ 0"
 msgstr "1 ≠ 0"
 
@@ -3369,7 +3367,6 @@ msgstr "1 ≠ 0"
 #. §10: $0 \\neq 1$
 #. §11: `zero_ne_one`
 #. §12: $1 \\neq 0$
-#, fuzzy
 msgid ""
 "We know §0 is a proof of §1 -- but what\n"
 "if we have a hypothesis §2? It's the wrong way around!\n"
@@ -3379,11 +3376,10 @@ msgid ""
 "does the same for a hypothesis §9. We've proved §10 and called\n"
 "the proof §11; now try proving §12."
 msgstr ""
-"私たちは、§0 が §1 の証明であることを知っています。しかし、もし §2 という仮定がある場合、それは逆になってしまいます。\n"
+"§0 が §1 の証明であることは分かっていますが、もし §2 という仮定があったらどうでしょう。これでは向きが逆です！\n"
 "\n"
-"§3 のタクティクは、目標 §4 を §5 に、目標 §6 を §7 に変更します。また、§8 も仮定 §9 に対して同様の操作を行います。\n"
-"\n"
-"§10 を証明し、その証明を §11 と命名しました。次に §12 を証明してみてください。"
+"§3 タクティクはゴール §4 を §5 に、ゴール §6 を §7 に変更します。また、§8 は仮定 §9 に対して同様の操作を行います。§10 "
+"を証明し、その証明を §11 と名付けました。それでは §12 の証明に挑戦してみましょう。"
 
 #: Game.Levels.Implication.L10one_ne_zero
 #. §0: ```
@@ -3391,7 +3387,6 @@ msgstr ""
 #. exact zero_ne_one
 #. ```
 #. §1: `exact`
-#, fuzzy
 msgid ""
 "What do you think of this two-liner:\n"
 "§0\n"
@@ -3399,10 +3394,10 @@ msgid ""
 "§1 doesn't just take hypotheses, it will eat any proof which exists\n"
 "in the system."
 msgstr ""
-"この2行についてどう思いますか：\n"
+"以下の2行についてどう思いますか：\n"
 "§0\n"
 "\n"
-"§1 は、単に仮定を受け取るだけでなく、システム内に存在する任意の証明を評価します。"
+"§1 は、単に仮定を受け取るだけではありません。システム内に存在するあらゆる証明を、ゴールを解決するために利用できるのです。"
 
 # no-translate
 #: Game.Levels.Implication.L11two_add_two_ne_five
