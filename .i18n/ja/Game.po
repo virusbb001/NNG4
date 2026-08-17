@@ -3243,27 +3243,24 @@ msgstr ""
 #: Game.Levels.Implication.L09zero_ne_succ
 #: Game.Levels.AdvMultiplication.L06mul_right_eq_one
 #. §0: `apply zero_ne_succ at h`
-#, fuzzy
 msgid "Now you can §0."
-msgstr "§0 を使用できます。"
+msgstr "これで §0 が使用できます。"
 
 #: Game.Levels.Implication.L09zero_ne_succ
 #. §0: `2 + 2 ≠ 5`
 #. §1: `0 ≠ 1`
 #. §2: `zero_ne_succ n`
 #. §3: `0 ≠ succ n`
-#, fuzzy
 msgid ""
 "As warm-up for §0 let's prove §1. To do this we need to\n"
 "introduce Peano's last axiom §2, a proof that §3.\n"
 "To learn about this result, click on it in the list of lemmas on the right."
 msgstr ""
-"ウォーミングアップとして、§0 の前に §1  を証明します。これを行うためには、ペアノの最後の公理 §2 と §3 "
-"の証明が必要です。この結果について学ぶには、右側の定理一覧から該当する項目をクリックしてください。"
+"§0 のウォーミングアップとして、§1 を証明してみましょう。そのためには、ペアノの最後の公理である §2 を導入する必要があります。これは §3 "
+"の証明です。この結果について学ぶには、右側に表示されている補題一覧から該当する項目をクリックしてください。"
 
 # no-translate
 #: Game.Levels.Implication.L09zero_ne_succ
-#, fuzzy
 msgid "zero_ne_succ"
 msgstr "zero_ne_succ"
 
@@ -3271,9 +3268,8 @@ msgstr "zero_ne_succ"
 #. §0: `1`
 #. §1: `succ 0`
 #. §2: `h`
-#, fuzzy
 msgid "Now change §0 to §1 in §2."
-msgstr "§2 の §0 を §1 に変更してください。"
+msgstr "§2 において、§0 を §1 に置き換えてください。"
 
 #: Game.Levels.Implication.L09zero_ne_succ
 #. §0: `zero_ne_succ n`
@@ -3286,7 +3282,6 @@ msgstr "§2 の §0 を §1 に変更してください。"
 #. §7: `apply zero_ne_succ at h`
 #. §8: `h`
 #. §9: `0 = succ n`
-#, fuzzy
 msgid ""
 "§0 is the proof that §1.\n"
 "\n"
@@ -3295,14 +3290,13 @@ msgid ""
 "Here §6 is a generic false statement. This means that\n"
 "you can §7 if §8 is a proof of §9."
 msgstr ""
-"§0 は §1 の証明を示します。\n"
+"§0 は §1 の証明です。\n"
 "\n"
-"Lean では、§2 が §3 に *定義されている* ことを意味します。したがって、§4 は実際に §5 の証明です。ここで §6 "
-"は一般的な偽の命題です。つまり、§8 が §9 の証明である場合、§7 を実行できます。"
+"Lean において、§2 は §3 と *定義されています*。したがって、§4 は実質的に §5 の証明となります。\n"
+"ここで §6 は一般的な偽の命題です。これは、§8 が §9 の証明であるならば、§7 を実行できることを意味します。"
 
 #: Game.Levels.Implication.L09zero_ne_succ
 #: Game.Levels.AdvAddition.L01add_right_cancel
-#, fuzzy
 msgid "Nice!"
 msgstr "素晴らしい！"
 
@@ -3311,9 +3305,8 @@ msgstr "素晴らしい！"
 #: Game.Levels.AdvMultiplication.L02mul_left_ne_zero
 #: Game.Levels.AdvMultiplication.L08mul_eq_zero
 #. §0: `intro h`
-#, fuzzy
 msgid "Start with §0."
-msgstr "§0 から開始してください。"
+msgstr "§0 を実行して始めてください。"
 
 #: Game.Levels.Implication.L10one_ne_zero
 #. §0: `symm`
